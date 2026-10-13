@@ -1,0 +1,196 @@
+{
+  "project_info": {
+    "name": "MOGNU'S - Atelier de Colchões e Camas de Luxo",
+    "type": "landing_page",
+    "language": "pt-PT",
+    "theme": "Warm Artisan Atelier / Ultra-Luxury Minimalist",
+    "inspiration": "Savoir Beds (eu.savoirbeds.com) & Swiss High-End Editorial Furniture Design"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond, Playfair Display, serif",
+    "body_font": "Plus Jakarta Sans, DM Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-serif font-light tracking-tight leading-tight",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-serif font-light tracking-tight leading-snug",
+      "h3": "text-2xl sm:text-3xl font-serif font-normal tracking-tight",
+      "h4": "text-lg sm:text-xl font-sans font-medium tracking-wide uppercase text-xs sm:text-sm",
+      "body": "text-base sm:text-lg text-stone-700 font-sans font-normal leading-relaxed",
+      "caption": "text-xs font-mono uppercase tracking-[0.2em] text-amber-800/80"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background_primary": "#FAF8F5",
+      "background_secondary": "#F3EFEA",
+      "background_dark": "#161311",
+      "surface_card": "#FFFFFF",
+      "surface_card_dark": "#201B18",
+      "text_primary": "#1C1714",
+      "text_secondary": "#5C534C",
+      "text_muted": "#8C827A",
+      "accent_brass_gold": "#C59B27",
+      "accent_brass_dark": "#8C6B16",
+      "accent_walnut": "#3D2B1F",
+      "accent_walnut_light": "#594030",
+      "border_subtle": "#E6E0D8",
+      "border_dark": "#2E2723"
+    },
+    "gradients": {
+      "brass_shimmer": "linear-gradient(135deg, #DFBA62 0%, #C59B27 50%, #9E7919 100%)",
+      "walnut_overlay": "linear-gradient(to bottom, rgba(22, 19, 17, 0.2) 0%, rgba(22, 19, 17, 0.75) 100%)",
+      "hero_scrim": "linear-gradient(to right, rgba(22, 19, 17, 0.85) 0%, rgba(22, 19, 17, 0.4) 50%, rgba(22, 19, 17, 0.1) 100%)"
+    }
+  },
+  "layout_and_spacing": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-20 lg:py-32",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-10",
+    "card_padding": "p-6 sm:p-8 lg:p-10"
+  },
+  "key_features_and_components": [
+    {
+      "name": "Kinetic Hero Section",
+      "description": "Hero page header with masked line-by-line reveal, smooth parallax background of a luxury bedroom atelier, floating badge with hand-engraved brass plate reference, and action trigger.",
+      "testid": "hero-section"
+    },
+    {
+      "name": "Editorial Ribbon Marquee",
+      "description": "Ultra-slow drifting marquee displaying artisan values: 'CRINA DE CAVALO TRAPASSADA À MÃO • ALGODÃO ORGÂNICO • CACHEMIRA DAS MONTANHAS • PLACA DE LATÃO GRAVADA MOGNU'S • MADEIRA DE NOGUEIRA SELECIONADA'.",
+      "testid": "editorial-marquee"
+    },
+    {
+      "name": "Interactive Product Catalogue with Real EUR Prices",
+      "description": "Filterable gallery (Colchões, Conjuntos de Cama, Toppers, Travesseiros) showing exact Savoir-inspired pricing in EUR (€). Includes hover lens magnifier and full spec details.",
+      "testid": "product-catalog-section"
+    },
+    {
+      "name": "Hover Magnifier Lens & Zoom Lightbox Modal",
+      "description": "Magnifying lens component on mouse move over product photos allowing users to inspect micro-details of hand-tufting, organic fabrics, and the authentic engraved brass plaque 'Mognu's' on the solid walnut frame.",
+      "testid": "product-magnifier-modal"
+    },
+    {
+      "name": "Engraved Brass Badge Component ('Placa de Latão Mognu's')",
+      "description": "Realistic CSS/SVG simulated brass plate with metallic sheen, golden gradient border, simulated screws on corners, and etched text 'MOGNU'S - ATELIER DE LUXO' integrated into product images and product detail cards.",
+      "testid": "brass-plaque-badge"
+    },
+    {
+      "name": "Craftsmanship & Heritage Section",
+      "description": "Multi-column storytelling block highlighting 120+ hours of handcrafting per mattress, pocket spring anatomy, natural fibers (horsehair, cashmere, lambswool), and bespoke customisation.",
+      "testid": "craftsmanship-heritage-section"
+    },
+    {
+      "name": "Bespoke Consultation / Inquiry Modal & Drawer",
+      "description": "Luxury custom sizing and consultation request modal with option to choose mattress dimensions (Single, Double, King, Super King, Savoy King, Emperor, Tailor-made).",
+      "testid": "bespoke-inquiry-modal"
+    }
+  ],
+  "products_data_source": [
+    {
+      "id": "no1-masterpiece",
+      "name": "Colchão MOGNU'S Nº1 — The Masterpiece",
+      "category": "Colchões",
+      "price_eur": 58285,
+      "price_formatted": "58.285 €",
+      "full_set_price": "97.310 €",
+      "hours_craftsmanship": "120h+",
+      "materials": "Crina de cavalo penteada à mão, Lã de ovelha virgem, Algodão orgânico de fibra longa, Mola ensacada dupla de titânio, Estrutura em Nogueira maciça com Placa de Latão 'Mognu's'.",
+      "image_url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiZWR8ZW58MHx8fHwxNzkxOTAxOTQwfDA&ixlib=rb-4.1.0&q=85",
+      "description": "O auge supremo do descanso personalizado. Cada colchão Nº1 é confecionado por um único mestre artesão em mais de 120 horas de trabalho manual minucioso."
+    },
+    {
+      "id": "no2-the-icon",
+      "name": "Colchão MOGNU'S Nº2 — The Savoy Icon",
+      "category": "Colchões",
+      "price_eur": 19635,
+      "price_formatted": "19.635 €",
+      "full_set_price": "38.500 €",
+      "hours_craftsmanship": "80h+",
+      "materials": "Crina de cavalo trançada, Lã pura, Fios de seda natural, Estrutura artesanal em nogueira e placa em latão polido Mognu's.",
+      "image_url": "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBiZWR8ZW58MHx8fHwxNzkxOTAxOTQwfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Criado originalmente para as suítes mais prestigiadas do hotel Savoy. Combina suporte ergonómico inigualável com sensação de gravidade zero."
+    },
+    {
+      "id": "no3-the-superior",
+      "name": "Conjunto Cama MOGNU'S Nº3 — The Superior",
+      "category": "Conjuntos de Cama",
+      "price_eur": 25725,
+      "price_formatted": "25.725 €",
+      "full_set_price": "25.725 €",
+      "hours_craftsmanship": "60h+",
+      "materials": "Molas ensacadas independentes, Camada superior de algodão egípcio, Base em madeira de nogueira maciça gravada com a insignia Mognu's.",
+      "image_url": "https://images.unsplash.com/photo-1744000311897-510b64f9a2e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwyfHxiZWRyb29tJTIwc3VpdGV8ZW58MHx8fHwxNzkxOTAxOTQwfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Equilíbrio harmonioso entre firmeza e maciez acolhedora. Conjunto completo incluindo colchão artesanal, sommier de molas e topper."
+    },
+    {
+      "id": "no4-the-new-standard",
+      "name": "Colchão MOGNU'S Nº4 — The New Standard",
+      "category": "Colchões",
+      "price_eur": 7545,
+      "price_formatted": "7.545 €",
+      "full_set_price": "15.205 €",
+      "hours_craftsmanship": "45h+",
+      "materials": "Lã cardada de alta densidade, Algodão orgânico não branqueado, Suporte progressivo de micro-molas.",
+      "image_url": "https://images.unsplash.com/photo-1635594202056-9ea3b497e5c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBiZWR8ZW58MHx8fHwxNzkxOTAxOTQwfDA&ixlib=rb-4.1.0&q=85",
+      "description": "A introdução perfeita ao luxo fabril MOGNU'S. Construção tradicional e materiais 100% naturais sem compromissos."
+    },
+    {
+      "id": "topper-hw-horsetail",
+      "name": "Topper MOGNU'S HW — Horse Tail & Wool",
+      "category": "Toppers",
+      "price_eur": 5140,
+      "price_formatted": "5.140 €",
+      "full_set_price": "N/A",
+      "hours_craftsmanship": "25h+",
+      "materials": "Crina de cavalo solta lavada em água de nascente, Lã de ovelha natural, Capa de tecido jacquard em damasco.",
+      "image_url": "https://images.unsplash.com/photo-1646060542093-615e5ae90626?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMGx1eHVyeSUyMG1hdHRyZXNzJTIwZmFicmljfGVufDB8fHx8MTc5MTkwMTkzNHww&ixlib=rb-4.1.0&q=85",
+      "description": "O topper icónico da MOGNU'S com 11 cm de espessura, desenhado para regular naturalmente a temperatura corporal durante a noite."
+    },
+    {
+      "id": "topper-hca-cashmere",
+      "name": "Topper MOGNU'S HCa — Horse Tail & Cashmere",
+      "category": "Toppers",
+      "price_eur": 17120,
+      "price_formatted": "17.120 €",
+      "full_set_price": "N/A",
+      "hours_craftsmanship": "35h+",
+      "materials": "Cachemira pura dos Himalaias, Crina de cavalo qualificada, Capa de linho fino com acabamento costurado à mão.",
+      "image_url": "https://images.unsplash.com/photo-1542728929-2b5d9a0c8d48?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHx3aGl0ZSUyMGR1dmV0JTIwYmVkJTIwcGlsbG93fGVufDB8fHx8MTc5MTkwMTk0MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Uma experiência tátil inigualável que combina a mola natural da crina com o acolhimento aveludado da cachemira mais nobre."
+    },
+    {
+      "id": "pillow-silk-down",
+      "name": "Almofada MOGNU'S Silk & Down",
+      "category": "Travesseiros",
+      "price_eur": 890,
+      "price_formatted": "890 €",
+      "full_set_price": "N/A",
+      "hours_craftsmanship": "10h+",
+      "materials": "90% Plumagem de ganso branco da Islândia, Capa 100% Seda mulberry 22 momme.",
+      "image_url": "https://images.unsplash.com/photo-1547104442-044448b73426?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMGR1dmV0JTIwYmVkJTIwcGlsbG93fGVufDB8fHx8MTc5MTkwMTk0MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Suporte cervical anatómico com toque ultrassuave de seda puríssima, confecionada com acabamento capitonê."
+    }
+  ],
+  "image_urls": {
+    "hero_background": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiZWR8ZW58MHx8fHwxNzkxOTAxOTQwfDA&ixlib=rb-4.1.0&q=85",
+    "atelier_wood": "https://images.unsplash.com/photo-1544691560-fc2053d97726?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxODd8MHwxfHNlYXJjaHwyfHx3YWxudXQlMjB3b29kJTIwZnVybml0dXJlJTIwZGV0YWlsfGVufDB8fHx8MTc5MTkwMTkzNHww&ixlib=rb-4.1.0&q=85",
+    "craftsmanship_workshop": "https://images.unsplash.com/photo-1567507137757-dd425a9e10d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxhcnRpc2FuJTIwbHV4dXJ5JTIwbWF0dHJlc3MlMjB0dWZ0ZWQlMjBvcmdhbmljJTIwd29vbCUyMHNpbGslMjBsaW5lbiUyMGNyYWZ0c21hbnNoaXAlMjB3b3Jrc2hvcHxlbnwwfHx8d2hpdGV8MTc5MTkwMTkyN3ww&ixlib=rb-4.1.0&q=85",
+    "mattress_fabric_texture": "https://images.unsplash.com/photo-1646060542093-615e5ae90626?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMGx1eHVyeSUyMG1hdHRyZXNzJTIwZmFicmljfGVufDB8fHx8MTc5MTkwMTkzNHww&ixlib=rb-4.1.0&q=85",
+    "bed_linen_details": "https://images.unsplash.com/photo-1542728929-2b5d9a0c8d48?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHx3aGl0ZSUyMGR1dmV0JTIwYmVkJTIwcGlsbG93fGVufDB8fHx8MTc5MTkwMTk0MHww&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Use standard React .js syntax for all files (not .tsx).",
+    "Implement Lenis smooth scroll or Framer Motion scroll container for luxury tactile scrolling.",
+    "Ensure every clickable button, filter, image, modal trigger, and link contains explicit data-testid attributes.",
+    "The header must use a glassmorphic warm background (bg-[#FAF8F5]/80 backdrop-blur-md) to ensure high visibility.",
+    "Make sure the hover magnifying lens is smooth and responsive, allowing magnification up to 2.5x over product texture and brass plate badge.",
+    "Display all prices in EUR (€) accurately matching Savoir Beds reference catalog."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "You MUST NOT apply universal transition. Eg: transition: all. Always specify properties.",
+    "You MUST NOT center align the app container, i.e. do not add .App { text-align: center; }.",
+    "NEVER use AI assistant emoji characters like 🤖🧠💭💡 for UI icons. Use Lucide or Phosphor icons.",
+    "All interactive and key informational elements MUST include a data-testid attribute."
+  ]
+}

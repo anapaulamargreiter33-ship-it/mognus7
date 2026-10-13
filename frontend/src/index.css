@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bone: #faf8f5;
+  --bone2: #f3efea;
+  --ink: #161311;
+  --brass: #c59b27;
+  --brass-light: #dfba62;
+  --brass-dark: #8c6b16;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background: var(--bone);
+  color: #1c1714;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--brass);
+  color: var(--ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ink);
+}
+::-webkit-scrollbar-thumb {
+  background: #594030;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brass-dark);
+}
+
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: 80;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain-shift 9s steps(6) infinite;
+}
+
+@keyframes grain-shift {
+  0%, 100% { transform: translate(0, 0); }
+  20% { transform: translate(-3%, 2%); }
+  40% { transform: translate(2%, -3%); }
+  60% { transform: translate(-2%, -2%); }
+  80% { transform: translate(3%, 3%); }
+}
+
+.brass-plate {
+  background: linear-gradient(135deg, #e8cc7a 0%, #c59b27 38%, #9e7919 62%, #dfba62 100%);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 244, 200, 0.85),
+    inset 0 -2px 3px rgba(70, 45, 5, 0.55),
+    0 10px 30px -10px rgba(0, 0, 0, 0.8);
+}
+
+.brass-plate-engraved {
+  color: #4a3407;
+  text-shadow:
+    0 1px 0 rgba(255, 240, 190, 0.65),
+    0 -1px 1px rgba(60, 38, 2, 0.7);
+}
+
+.img-zoom-cursor {
+  cursor: crosshair;
+}
+
+.mask-line {
+  overflow: hidden;
+  display: block;
+}
+
+.vignette::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(120% 90% at 50% 40%, transparent 55%, rgba(22, 19, 17, 0.5) 100%);
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(223, 186, 98, 0.35);
+  color: transparent;
+}
