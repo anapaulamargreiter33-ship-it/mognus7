@@ -29,7 +29,7 @@ export default function MognusLogo({ className = "", markClass = "h-9 w-9", tone
             tone === "light" ? "text-brass-light/80" : "text-brass-dark"
           }`}
         >
-          Atelier de Camas
+          Carpintaria
         </span>
       </span>
     </span>

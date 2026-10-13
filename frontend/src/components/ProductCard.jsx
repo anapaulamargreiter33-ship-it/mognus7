@@ -102,8 +102,8 @@ export default function ProductCard({ product, span, index, onOpen }) {
         </div>
         <div className="shrink-0 text-right" data-testid={`product-price-${product.slug}`}>
           <p className="font-serif text-xl text-brass-dark">{formatPrice(product.price_eur)}</p>
-          <p className="mt-0.5 text-[9px] uppercase tracking-[0.24em] text-faint">
-            {product.price_eur ? "a partir de" : "sob consulta"}
+          <p className="mt-0.5 h-3 text-[9px] uppercase tracking-[0.24em] text-faint">
+            {product.price_eur ? (product.price_from ? "a partir de" : "") : "sob consulta"}
           </p>
         </div>
       </div>

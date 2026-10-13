@@ -3,8 +3,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import MognusLogo from "@/components/MognusLogo";
 
 const LINKS = [
-  { label: "A Coleção", href: "#colecao" },
-  { label: "O Atelier", href: "#atelier" },
+  { label: "A Loja", href: "#colecao" },
+  { label: "Sob Medida", href: "#sobmedida" },
   { label: "A Marca", href: "#marca" },
   { label: "Contato", href: "#contato" },
 ];

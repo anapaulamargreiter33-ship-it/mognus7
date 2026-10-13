@@ -2,9 +2,9 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const STATS = [
-  { n: "120 h", l: "de trabalho manual por cama" },
-  { n: "1905", l: "o nascimento do ícone" },
-  { n: "100%", l: "materiais naturais" },
+  { n: "43", l: "peças na loja" },
+  { n: "100%", l: "feitas à mão" },
+  { n: "Loulé", l: "Algarve · Portugal" },
 ];
 
 const reveal = {
@@ -46,7 +46,7 @@ function ParallaxFigure({ src, caption, className = "", testid }) {
 
 export default function Craft() {
   return (
-    <section id="atelier" data-testid="craftsmanship-heritage-section" className="bg-ink py-20 lg:py-32">
+    <section id="sobmedida" data-testid="custom-carpentry-section" className="bg-ink py-20 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="mb-16 grid grid-cols-1 gap-10 lg:grid-cols-12">
           <motion.div
@@ -58,12 +58,12 @@ export default function Craft() {
           >
             <p className="mb-4 flex items-center gap-4 text-[10px] font-medium uppercase tracking-[0.4em] text-brass-light">
               <span className="h-px w-10 bg-brass" />
-              O Atelier
+              Sob Medida
             </p>
             <h2 className="font-serif text-4xl font-light leading-tight text-bone sm:text-5xl lg:text-6xl">
-              Uma aula mestre,
+              A sua casa,
               <br />
-              <span className="italic text-brass-light">costurada à mão.</span>
+              <span className="italic text-brass-light">feita à medida.</span>
             </h2>
           </motion.div>
           <motion.div
@@ -75,24 +75,24 @@ export default function Craft() {
             className="flex items-end lg:col-span-5"
           >
             <p className="text-sm leading-relaxed text-bone/60 sm:text-base">
-              Até duas semanas de trabalho manual separam cada cama MOGNU&rsquo;S do resto do
-              mundo: crina de cavalo pentheada, lã virgem em camadas generosas e molas ensacadas —
-              tudo fixado à mão, ponto a ponto. E cada peça carrega a placa de latão gravada com a
-              nossa marca, discreta sobre a nogueira, legível sob a lupa.
+              Cozinhas, roupeiros, closets, escadas e bibliotecas projetados e executados pela
+              nossa carpintaria, em Loulé — do milímetro ao acabamento final. E na loja, mobiliário
+              pronto a levar: camas, colchões, sofás e mesas, cada peça com a placa de latão
+              gravada Mognu&rsquo;s, discreta sobre a madeira, legível sob a lupa.
             </p>
           </motion.div>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-12 lg:gap-10">
           <ParallaxFigure
-            src="/images/editorial/editorial_hands.jpg"
-            caption="Tufting à mão, ponto a ponto"
+            src="/images/real/carp_hands.jpg"
+            caption="Do milímetro ao acabamento — à mão"
             className="aspect-[4/3] md:col-span-7"
             testid="craft-figure-hands"
           />
           <div className="flex flex-col gap-6 md:col-span-5 lg:gap-10">
             <ParallaxFigure
-              src="/images/products/detail_border_macro.jpg"
+              src="/images/real/carp_plaque_macro.jpg"
               caption="A placa de latão: amplie e leia a marca"
               className="aspect-[4/3] md:aspect-auto md:flex-1"
               testid="craft-figure-macro"
@@ -109,16 +109,16 @@ export default function Craft() {
             </div>
           </div>
           <ParallaxFigure
-            src="/images/editorial/editorial_materials.jpg"
-            caption="Crina, lã e linho — só o que a natureza dá"
+            src="/images/real/carp_kitchen.jpg"
+            caption="Cozinhas sob medida"
             className="aspect-[16/9] md:col-span-8"
-            testid="craft-figure-materials"
+            testid="craft-figure-kitchen"
           />
           <ParallaxFigure
-            src="/images/editorial/editorial_plaque.jpg"
-            caption="Latão gravado Mognu's — a assinatura da casa"
+            src="/images/real/carp_closet.jpg"
+            caption="Closets e roupeiros"
             className="aspect-[16/9] md:col-span-4"
-            testid="craft-figure-plaque"
+            testid="craft-figure-closet"
           />
         </div>
       </div>

@@ -1,10 +1,13 @@
 const ITEMS = [
-  "Crina de cavalo penteada à mão",
-  "Lã virgem de ovelha",
-  "Cachemir das montanhas",
-  "Placa de latão gravada Mognu's",
-  "Nogueira maciça",
-  "Molas ensacadas à mão",
+  "Madeira maciça",
+  "Sob medida ao milímetro",
+  "Cozinhas",
+  "Roupeiros",
+  "Camas",
+  "Colchões",
+  "Sofás",
+  "Mesas",
+  "Loulé · Algarve",
 ];
 
 export default function Marquee() {

@@ -1,17 +1,24 @@
-# PRD — MOGNU'S · Atelier de Colchões e Camas de Luxo
+# PRD — MOGNU'S · Mognus Company — Carpintaria & Mobiliário (Loulé, Algarve)
 
 ## Problema original (verbatim)
-"Quero que você insira no meu site todas as imagens dos produtos e seus respectivos preços que estão no site que vou enviar, mantendo o layout e o estilo do meu site atual. Não inclua imagens duplicadas, mesmo que apareçam repetidas no site de origem. Mantenha cada produto associado ao preço correto. Melhore bastante a qualidade das imagens... Inclua a marca MOGNU'S nos móveis... Disponibilize lupa e ampliação nas imagens dos produtos... Antes de começar, aguarde as referências que vou enviar."
+"Quero que você insira no meu site todas as imagens dos produtos e seus respectivos preços que estão no site que vou enviar... Melhore bastante a qualidade das imagens... Inclua a marca MOGNU'S nos móveis... Disponibilize lupa e ampliação..."
+## Iteração 2 (verbatim resumido): "O site ficou muito lindo! Quero manter exatamente esse estilo... a MOGNU'S é uma carpintaria que também vende colchões e outros produtos, então retire a apresentação como 'ateliê'. Você está usando produtos que não são os nossos. Substitua pelas imagens dos produtos reais... com os respectivos preços."
+
+## Dados reais
+- Empresa: Mognus Company (MOGNU'S), carpintaria em Loulé, Algarve — mognuscompany.com.
+- Catálogo real: 43 produtos da loja oficial (nomes, preços €, fotos mapeadas 1:1 do site oficial + arquivo imgs.rar do cliente). 14 peças "a partir de", 1 "sob consulta" (Mesa de Apoio Pôpa), demais preço fixo.
+- Contato real: geral@mognuscompany.com · Estrada da Cimpor, Cabeça Alta 7, 8100-298 Loulé.
 
 ## Referências recebidas
 - Vídeo do site de origem: eu.savoirbeds.com (Savoir Beds) — catálogo de colchões de luxo.
 - Fotos de referência: cama em madeira com placa de latão gravada "Mognu's" (aplicação da marca) e estilo editorial de roupa de cama.
 
 ## Decisões tomadas (defaults aplicados)
-- Fonte de dados: API pública Shopify do site de origem (eu.savoirbeds.com), extraída em 2026-10-13 (23 produtos do núcleo de luxo: 6 colchões, 6 conjuntos de cama, 6 toppers, 5 travesseiros). Preços exatos em EUR (€), formato "a partir de".
-- Moeda: € conforme o site de origem (usuário não respondeu a pergunta de moeda).
-- Espaço de trabalho estava vazio (template padrão): o site foi construído do zero seguindo as referências enviadas.
-- Escopo de imagens: 30 fotografias geradas por IA (Gemini 3.1 Flash Image) em estilo consistente de ateliê de luxo (nogueira, latão, luz quente) — nenhuma duplicada. Cama-de-roupas/lençóis/protetores e 43 designs sob medida (sem preço) do site de origem ficaram de fora desta fase.
+- Fase 1 usava o catálogo Savoir Beds como referência; na fase 2 (2026-10-13) o catálogo foi SUBSTITUÍDO pelos 43 produtos reais da Mognus Company (loja oficial), conforme pedido do cliente.
+- Design aprovado pelo cliente mantido intacto: hero cinético, marquee editorial, grid 5/7, lupa 2,4×, lightbox 1×/1,75×/3×, seção escura, footer gigante.
+- Posicionamento corrigido: "Carpintaria" (não "ateliê") — hero, nav, seção "Sob Medida" (cozinhas, roupeiros, closets, escadas, escritórios com fotos reais aprimoradas da carpintaria) e footer com contato real.
+- 51 imagens aprimoradas por IA a partir das fotos reais (fidelidade de modelo/cor/material) + placa de latão MOGNU'S gravada; macro da placa disponível em todos os produtos no lightbox.
+- Abas: Tudo (43), Camas & Colchões (11), Sofás (9), Mesas (10), Mobiliário (13).
 
 ## Arquitetura
 - Backend: FastAPI + Motor (MongoDB). Endpoints: GET /api/, GET /api/products?collection=, GET /api/products/{slug}. Seed idempotente em /app/backend/seed/products.json (só popula coleção vazia). Dados crus de referência: /app/backend/seed/source_extract.json.

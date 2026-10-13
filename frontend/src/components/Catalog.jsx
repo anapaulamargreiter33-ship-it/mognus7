@@ -5,11 +5,10 @@ import Lightbox from "@/components/Lightbox";
 
 const TABS = [
   { key: "all", label: "Tudo" },
-  { key: "designs", label: "Móveis" },
-  { key: "mattresses", label: "Colchões" },
-  { key: "bed-sets", label: "Conjuntos" },
-  { key: "toppers", label: "Toppers" },
-  { key: "pillows", label: "Travesseiros" },
+  { key: "camas", label: "Camas & Colchões" },
+  { key: "sofas", label: "Sofás" },
+  { key: "mesas", label: "Mesas" },
+  { key: "mobiliario", label: "Mobiliário" },
 ];
 
 const SPANS = ["md:col-span-7", "md:col-span-5", "md:col-span-5", "md:col-span-7"];
@@ -47,7 +46,7 @@ export default function Catalog({ products, error }) {
               A Coleção
             </p>
             <h2 className="font-serif text-4xl font-light leading-tight text-ivory sm:text-5xl lg:text-6xl">
-              Sessenta e seis peças,
+              Quarenta e três peças,
               <br />
               <span className="italic text-walnut">uma obsessão.</span>
             </h2>

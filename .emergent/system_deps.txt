@@ -1,0 +1,2 @@
+libarchive-tools=3.6.2-1+deb12u5
+p7zip-full=16.02+really26.02+dfsg-0+deb12u1

@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 import MognusLogo from "@/components/MognusLogo";
 
 const COLLECTION_LINKS = [
-  { label: "Colchões", href: "#colecao" },
-  { label: "Conjuntos de Cama", href: "#colecao" },
-  { label: "Toppers", href: "#colecao" },
-  { label: "Travesseiros", href: "#colecao" },
+  { label: "Camas & Colchões", href: "#colecao" },
+  { label: "Sofás", href: "#colecao" },
+  { label: "Mesas", href: "#colecao" },
+  { label: "Mobiliário", href: "#colecao" },
+  { label: "Sob Medida", href: "#sobmedida" },
 ];
 
 const scrollTo = (e, href) => {
@@ -33,13 +34,13 @@ export default function Footer() {
           <div className="md:col-span-5">
             <MognusLogo />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-bone/55">
-              Atelier de camas e colchões de luxo. Materiais naturais, costura manual e a
-              assinatura em latão gravado em cada peça.
+              Carpintaria e loja de mobiliário em Loulé, Algarve. Cozinhas, roupeiros e bibliotecas
+              sob medida — e camas, colchões, sofás e mesas feitos à mão.
             </p>
           </div>
           <div className="md:col-span-3">
             <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.34em] text-brass-light">
-              A Coleção
+              A Loja
             </p>
             <ul className="space-y-3">
               {COLLECTION_LINKS.map((l) => (
@@ -61,21 +62,25 @@ export default function Footer() {
               Consultas
             </p>
             <p className="text-sm leading-relaxed text-bone/60">
-              Agende uma consultoria sob demanda para definir medidas, materiais e acabamentos.
+              Defina medidas, materiais e acabamentos com a nossa equipa — orçamento sem
+              compromisso.
+            </p>
+            <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-bone/40">
+              Estrada da Cimpor, Cabeça Alta 7 · 8100-298 Loulé
             </p>
             <a
-              href="mailto:atelier@mognus.com"
+              href="mailto:geral@mognuscompany.com"
               data-testid="footer-contact-cta"
               className="mt-6 inline-block rounded-full border border-brass/60 px-8 py-3.5 text-[10px] font-medium uppercase tracking-[0.26em] text-brass-light transition-all duration-500 hover:bg-brass hover:text-ink"
             >
-              Falar com o atelier
+              Solicite um orçamento
             </a>
           </div>
         </div>
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-inkline pt-8 text-[10px] uppercase tracking-[0.24em] text-bone/35 sm:flex-row">
-          <p>© 2026 MOGNU&rsquo;S — Todos os direitos reservados</p>
-          <p data-testid="footer-price-note">Preços em euros (€) · Catálogo europeu de referência</p>
+          <p>© 2026 Mognus Company — MOGNU&rsquo;S · Loulé, Algarve</p>
+          <p data-testid="footer-price-note">Preços em euros (€) · Loja mognuscompany.com</p>
         </div>
       </div>
     </footer>
