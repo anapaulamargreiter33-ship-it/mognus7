@@ -3,7 +3,16 @@ import { motion } from "framer-motion";
 
 const ZOOM = 2.4;
 
-export const formatPrice = (priceEur) => `${priceEur.toLocaleString("pt-BR")} €`;
+export const formatPrice = (priceEur) => {
+  if (!priceEur) return "Sob consulta";
+  const cents = priceEur % 1 !== 0;
+  return (
+    priceEur.toLocaleString("pt-BR", {
+      minimumFractionDigits: cents ? 2 : 0,
+      maximumFractionDigits: cents ? 2 : 0,
+    }) + " €"
+  );
+};
 
 export default function ProductCard({ product, span, index, onOpen }) {
   const [lens, setLens] = useState({ on: false, x: 50, y: 50 });
@@ -93,7 +102,9 @@ export default function ProductCard({ product, span, index, onOpen }) {
         </div>
         <div className="shrink-0 text-right" data-testid={`product-price-${product.slug}`}>
           <p className="font-serif text-xl text-brass-dark">{formatPrice(product.price_eur)}</p>
-          <p className="mt-0.5 text-[9px] uppercase tracking-[0.24em] text-faint">a partir de</p>
+          <p className="mt-0.5 text-[9px] uppercase tracking-[0.24em] text-faint">
+            {product.price_eur ? "a partir de" : "sob consulta"}
+          </p>
         </div>
       </div>
     </motion.article>

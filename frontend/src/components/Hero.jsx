@@ -113,7 +113,7 @@ export default function Hero() {
           className="mt-14 flex flex-wrap items-center gap-x-12 gap-y-6 border-t border-bone/10 pt-8"
         >
           {[
-            { n: "23", l: "peças no catálogo" },
+            { n: "66", l: "peças no catálogo" },
             { n: "120 h", l: "de costura à mão por cama" },
             { n: "100%", l: "materiais naturais" },
           ].map((s) => (

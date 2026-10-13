@@ -5,6 +5,7 @@ import Lightbox from "@/components/Lightbox";
 
 const TABS = [
   { key: "all", label: "Tudo" },
+  { key: "designs", label: "Móveis" },
   { key: "mattresses", label: "Colchões" },
   { key: "bed-sets", label: "Conjuntos" },
   { key: "toppers", label: "Toppers" },
@@ -46,7 +47,7 @@ export default function Catalog({ products, error }) {
               A Coleção
             </p>
             <h2 className="font-serif text-4xl font-light leading-tight text-ivory sm:text-5xl lg:text-6xl">
-              Vinte e três peças,
+              Sessenta e seis peças,
               <br />
               <span className="italic text-walnut">uma obsessão.</span>
             </h2>

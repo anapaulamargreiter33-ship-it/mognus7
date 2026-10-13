@@ -41,7 +41,7 @@ class Product(BaseDocument):
     subtitle: str = ""
     category: str
     category_key: str
-    price_eur: int
+    price_eur: float
     description: str = ""
     materials: List[str] = Field(default_factory=list)
     badge: Optional[str] = None

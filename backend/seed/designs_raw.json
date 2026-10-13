@@ -1,0 +1,706 @@
+[
+ {
+  "handle": "authenticity",
+  "title": "Authenticity",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir-Ozwald-Boateng-001-01-Landscape-Web.jpg?v=1777461831",
+  "desc": "A fusion of Savile Row tailoring and Savoir craftsmanship.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "claudia",
+  "title": "Claudia",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SavoirClaudiaBlueLandscape-Web.jpg?v=1782998759",
+  "desc": "A Rococo-inspired silhouette with classic detailing.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "amelia-boucle",
+  "title": "Amelia - Bouclé",
+  "price": "10810.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SavoirAmeliaBoucleHarlechLeg-Web.jpg?v=1782224961",
+  "desc": "Contemporary curved wings lead to a slender base.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "luna",
+  "title": "Luna",
+  "price": "20555.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SavoirLunaLandscape-Web.jpg?v=1783335883",
+  "desc": "A superyacht-inspired design with refined detailing.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "alex",
+  "title": "Alex",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/250512-Savoir-Sessions-House-002-03-Web.jpg?v=1754482828",
+  "desc": "A simple and versatile design that exudes quiet luxury.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "max",
+  "title": "Max",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir_Beds-02-001-Landscape-Web.jpg?v=1751385509",
+  "desc": "Capacious panels and rich textures, for the deepest dreams.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "hatti",
+  "title": "Hatti",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/250428-Savoir-Syon-House-005-4x5-Portrait-Web.jpg?v=1751384207",
+  "desc": "Artful geometry meets enduring elegance.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "elly",
+  "title": "Elly",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir_Elly_Landscape.jpg?v=1754478183",
+  "desc": "An ode to the timeless elegance of a violin.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "ian-boucle",
+  "title": "Ian - Bouclé",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/250428-Savoir-Syon-House-002-4x5-Portrait-Web.jpg?v=1751385497",
+  "desc": "A modern take on minimalist form.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "tranquility",
+  "title": "Tranquility",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Tranquillity_Bed_Winch.jpg?v=1751384211",
+  "desc": "Handcrafted comfort, inspired by the golden age of travel.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "hugo",
+  "title": "Hugo",
+  "price": "15975.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/250512-Savoir-Sessions-House-001-01-Web.jpg?v=1754481792",
+  "desc": "British stately motifs.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "holly",
+  "title": "Holly",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Holly_Lifestyle_landscape_2.jpg?v=1751385492",
+  "desc": "Gentle undulating buttoning for understated luxury.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "winston",
+  "title": "Winston",
+  "price": "10810.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/230111_Savoir_Shot_01-Web.jpg?v=1751387277",
+  "desc": "A modernist-inspired iconic design with refined proportions.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "lenoir",
+  "title": "Lenoir",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/LenoirDressedBed_0b2c018d-9068-4942-ba98-9c775c72cbb1.jpg?v=1751385506",
+  "desc": "A handmade tale of graceful curves and timeless craft.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "felix-frampton-verdure",
+  "title": "Felix - Frampton Verdure",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir_Felix_Landscape_1.jpg?v=1751384223",
+  "desc": "The reimagining of ‘Frampton Verdure’ is beautifully framed.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "harlech-nailed",
+  "title": "Harlech - Nailed",
+  "price": "6990.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir_Beds-04-001-Landscape-Web.jpg?v=1751384192",
+  "desc": "An angular, streamlined silhouette with nailing detail.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "amelia-wool",
+  "title": "Amelia - Wool",
+  "price": "10810.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Amelia_Lifestyle_portrait.jpg?v=1751385465",
+  "desc": "A film noir arch leads to a slim base, for balanced opulence.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "virginia",
+  "title": "Virginia",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/220630-Savoir-VIRGINIA-004-Web_892e7e03-54b9-4efc-ba51-6e0d9788833b.jpg?v=1751384117",
+  "desc": "An elegant silhouette with contemporary styling details.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "felix-national-gallery",
+  "title": "Felix - National Gallery",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Felix-National-Gallery---Combat-of-Love-Landscape_d7e04c3e-46d1-4139-bb9e-2e680c82271d.jpg?v=1751384186",
+  "desc": "Designed to showcase your Renaissance.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "cassie",
+  "title": "Cassie",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Cassie_Resized.jpg?v=1751385462",
+  "desc": "Soft edges and charming curves meet bold colour.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "hudson",
+  "title": "Hudson",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SAVOIR_HUDSON_BED_LANDSCAPE.jpg?v=1751387270",
+  "desc": "A futuristic moment enveloped in joyful colour.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "harlech-national-gallery",
+  "title": "Harlech - National Gallery",
+  "price": "6310.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SAVOIR_NATIONAl_GALLERY_HILLSIDE_IN_PROVENCE_DETAIL3.jpg?v=1751387290",
+  "desc": "A blank canvas for showcasing a masterpiece.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "chrissy",
+  "title": "Chrissy",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/ChrissyDressedBed_692ff1b0-7daf-40ab-a905-5f78a32aa97c.jpg?v=1751385453",
+  "desc": "A marriage of charm and playful sophistication.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "felix-bacchus",
+  "title": "Felix - Bacchus",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SAVOIR_FELIXBACCHUS_LANDSCAPE.jpg?v=1751384194",
+  "desc": "The ‘The Procession of Bacchus’, beautifully framed.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "ian-linen",
+  "title": "Ian - Linen",
+  "price": "6890.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Christophe-Delcourts-Ian-bed-design-Lifestyle-image-e1544546377296.jpg?v=1744632013",
+  "desc": "Low-key Nordic simplicity in contemporary hues.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "cloud",
+  "title": "Cloud",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/CloudDressedBed_f3c8fbc7-8e14-4649-bde4-dd09658cffc6.jpg?v=1751385477",
+  "desc": "Organic form and function create a dreamy design.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "savoy",
+  "title": "Savoy",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SavoyDressedBed_7cf1b924-3b60-4b3d-948a-bcd104719944.jpg?v=1751385525",
+  "desc": "Art Deco inspired shapes are met with a 21st-century fabric.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "felix-plain",
+  "title": "Felix - Plain",
+  "price": "8410.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir_TheReformerNo4V_HiRes_JPEG.jpg?v=1751385481",
+  "desc": "Classic luxury paired with contemporary styling.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "harlech-piped",
+  "title": "Harlech - Piped",
+  "price": "6452.50",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Harlech-Piped-Square_bad3ea12-bd38-4e2b-8109-c21e98d0c8d1.jpg?v=1751384188",
+  "desc": "An angular, streamlined silhouette with sharp contrast piping.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "louis",
+  "title": "Louis",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SAVOIR_FRANCIS_SULTANA_LANDSCAPE.jpg?v=1751385498",
+  "desc": "An Elizabethan-inspired bed collar in a bespoke tweed.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "state",
+  "title": "State",
+  "price": "20865.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/StateDressedBed_blue_afe89835-d319-4552-bc9e-a09dadedd430.jpg?v=1751385531",
+  "desc": "Stately proportions, elevated with diamond tufting.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "stella",
+  "title": "Stella",
+  "price": "11695.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/StellaDressedBed_dd981d05-8bff-44c7-82b3-54536b0ed0ca.jpg?v=1751385534",
+  "desc": "Artful geometry meets plush teddy mohair.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "ocean",
+  "title": "Ocean",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir_BillAmberg_Ocean_LANDSCAPE_WEB.jpg?v=1751385509",
+  "desc": "Pioneering leather printing meets traditional handcraft.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "b-bed",
+  "title": "B Bed",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/BBedDressedBed_82dca7be-bc6b-41aa-aba6-04798843460e.jpg?v=1751385451",
+  "desc": "Inspired by pocket springs with a nod to 1970s furniture.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "gorrivan",
+  "title": "Gorrivan",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/IMG3904f_1.jpg?v=1751385443",
+  "desc": "A shapely headboard in tweed, echoing a country manor.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "moon",
+  "title": "Moon",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/MoonDressedBed_bcc0396c-50a2-4917-a3f7-e4ea43be771b.jpg?v=1751385428",
+  "desc": "A striking depiction of the Moon, complete with lunar glow.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "kiku",
+  "title": "Kiku",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SavoirBeds_Fromental_KIKU-01_PRESS_PORTRAIT_c1e225ca-f764-401b-b636-892448018ffa.jpg?v=1751385476",
+  "desc": "Inspired by Japanese art, celebrating the East and the West.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "lilies",
+  "title": "Lilies",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/Savoir-X-ZandraRhodesDressedBed_80227c0b-2387-4a57-a29d-294fa247634c.jpg?v=1751385443",
+  "desc": "The iconic 'Lilies' motif from Zandra Rhodes, reimagined.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "the-seventy-five",
+  "title": "The Seventy Five",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/SAVOIR_SEVENTYFIVE_CROP2_2.jpg?v=1751384120",
+  "desc": "An innovative design with seamlessly integrated speakers.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "screen",
+  "title": "Screen",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/ScreenDressedBed_63167f0f-29b8-48b4-8e08-42b0d4b8e822.jpg?v=1751385521",
+  "desc": "A modern interpretation of traditional Chinese folding screens.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "penelope",
+  "title": "Penelope",
+  "price": "20055.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/PenelopeDressedBed_a9c765d1-b47a-40dd-81cd-58c6d207ec28.jpg?v=1751385520",
+  "desc": "Reminiscent of the Baroque period, with sculptural lines.",
+  "options": {
+   "Size": [
+    "Double (140x200cm)",
+    "King (160x200cm)",
+    "Super King (180x200cm)",
+    "Super King Long (180x210cm)",
+    "Savoy King (200x200cm)",
+    "Savoy King Long (200x210cm)"
+   ]
+  }
+ },
+ {
+  "handle": "the-three-sixty",
+  "title": "The Three Sixty",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/The-Three-SixtyDressedBed_cebc673f-d42e-4892-b993-eb5709cb79cc.jpg?v=1751384115",
+  "desc": "The epitome of luxury. This is the bed with everything.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ },
+ {
+  "handle": "shift",
+  "title": "Shift",
+  "price": "0.00",
+  "type": "Design",
+  "img": "https://cdn.shopify.com/s/files/1/0919/1620/6451/files/ShiftDressedBed_88864fe8-da41-468f-adf6-22d716fcfc00.jpg?v=1751385445",
+  "desc": "An experimental design with adjustable stacking bars.",
+  "options": {
+   "Title": [
+    "Default Title"
+   ]
+  }
+ }
+]

@@ -1,293 +1,1093 @@
 [
-  {
-    "slug": "no1-mattress",
-    "name": "Colchão Nº1",
-    "subtitle": "O Pináculo",
-    "category": "Colchões",
-    "category_key": "mattresses",
-    "price_eur": 58285,
-    "description": "O auge do luxo: feito à mão em Londres, é o colchão definitivo em conforto e materiais nobres.",
-    "materials": ["Feito à mão em Londres", "Materiais naturais nobres", "Costura à mão"],
-    "badge": "O Pináculo",
-    "image": "/images/products/prod_no1_mattress.jpg",
-    "macro_image": "/images/products/detail_border_macro.jpg",
-    "order": 1
-  },
-  {
-    "slug": "no-2-mattress",
-    "name": "Colchão Nº2",
-    "subtitle": "O Ícone",
-    "category": "Colchões",
-    "category_key": "mattresses",
-    "price_eur": 19635,
-    "description": "Um curso mestre em artesanato, conforto e estilo há mais de 100 anos.",
-    "materials": ["Crina de cavalo", "Molas ensacadas costuradas à mão"],
-    "badge": "O Ícone",
-    "image": "/images/products/prod_no2_mattress.jpg",
-    "macro_image": "/images/products/detail_border_macro.jpg",
-    "order": 2
-  },
-  {
-    "slug": "no-3-mattress",
-    "name": "Colchão Nº3",
-    "subtitle": "O Sonho Profundo",
-    "category": "Colchões",
-    "category_key": "mattresses",
-    "price_eur": 12595,
-    "description": "Sonhadoramente profundo: a prova da qualidade que nos tornou famosos.",
-    "materials": ["Profundidade extra", "Materiais naturais respiráveis"],
-    "image": "/images/products/prod_no3_mattress.jpg",
-    "macro_image": "/images/products/detail_border_macro.jpg",
-    "order": 3
-  },
-  {
-    "slug": "no-4-mattress",
-    "name": "Colchão Nº4",
-    "subtitle": "O Padrão dos Grandes Hotéis",
-    "category": "Colchões",
-    "category_key": "mattresses",
-    "price_eur": 7545,
-    "description": "Criado a pedido de alguns dos melhores hotéis do mundo.",
-    "materials": ["Desenvolvido para hotéis de luxo", "Costura à mão"],
-    "image": "/images/products/prod_no4_mattress.jpg",
-    "macro_image": "/images/products/detail_border_macro.jpg",
-    "order": 4
-  },
-  {
-    "slug": "no-4v-mattress",
-    "name": "Colchão Nº4v",
-    "subtitle": "O Vegano",
-    "category": "Colchões",
-    "category_key": "mattresses",
-    "price_eur": 12595,
-    "description": "Feito à mão com materiais naturais de origem vegetal, para o sono mais puro.",
-    "materials": ["Materiais de origem vegetal", "Sem materiais sintéticos"],
-    "badge": "Vegano",
-    "image": "/images/products/prod_no4v_mattress.jpg",
-    "macro_image": "/images/products/detail_border_macro.jpg",
-    "order": 5
-  },
-  {
-    "slug": "no-5-mattress",
-    "name": "Colchão Nº5",
-    "subtitle": "O Essencial",
-    "category": "Colchões",
-    "category_key": "mattresses",
-    "price_eur": 4265,
-    "description": "Feito sob encomenda em nosso ateliê: a base definitiva para o autocuidado diário.",
-    "materials": ["Feito sob encomenda", "Costura à mão"],
-    "image": "/images/products/prod_no5_mattress.jpg",
-    "macro_image": "/images/products/detail_border_macro.jpg",
-    "order": 6
-  },
-  {
-    "slug": "no-1-the-one",
-    "name": "Conjunto Nº1",
-    "subtitle": "O Único",
-    "category": "Conjuntos de Cama",
-    "category_key": "bed-sets",
-    "price_eur": 119100,
-    "description": "O corolário de mais de um século de arte em camas: ao menos 120 horas de trabalho manual.",
-    "materials": ["120 horas de trabalho manual", "Cabecilho profundo capitonê"],
-    "badge": "120 h à mão",
-    "image": "/images/products/set_no1_the_one.jpg",
-    "order": 11
-  },
-  {
-    "slug": "no-2-the-icon",
-    "name": "Conjunto Nº2",
-    "subtitle": "O Ícone",
-    "category": "Conjuntos de Cama",
-    "category_key": "bed-sets",
-    "price_eur": 37420,
-    "description": "A receita encomendada para o hotel Savoy em 1905: uma aula mestre de conforto e estilo.",
-    "materials": ["Encomendado para o Savoy em 1905", "Mais de 80 horas à mão"],
-    "badge": "Desde 1905",
-    "image": "/images/products/set_no2_the_icon.jpg",
-    "order": 12
-  },
-  {
-    "slug": "no-3-the-superior",
-    "name": "Conjunto Nº3",
-    "subtitle": "O Superior",
-    "category": "Conjuntos de Cama",
-    "category_key": "bed-sets",
-    "price_eur": 25725,
-    "description": "Quase duas semanas de artesanato habilidoso e uma abundância imensa dos melhores materiais naturais respiráveis.",
-    "materials": ["Quase duas semanas de artesanato", "Materiais naturais respiráveis"],
-    "image": "/images/products/set_no3_the_superior.jpg",
-    "order": 13
-  },
-  {
-    "slug": "no-4-the-new-standard",
-    "name": "Conjunto Nº4",
-    "subtitle": "O Novo Padrão",
-    "category": "Conjuntos de Cama",
-    "category_key": "bed-sets",
-    "price_eur": 15205,
-    "description": "Uma obra-prima de longevidade e conforto, nascida da demanda dos grandes hotéis.",
-    "materials": ["Longevidade e conforto", "Costura à mão"],
-    "image": "/images/products/set_no4_new_standard.jpg",
-    "order": 14
-  },
-  {
-    "slug": "no-4v-the-reformer",
-    "name": "Conjunto Nº4v",
-    "subtitle": "O Reformador",
-    "category": "Conjuntos de Cama",
-    "category_key": "bed-sets",
-    "price_eur": 25725,
-    "description": "Uma receita para dormir melhor: os mais finos materiais de origem vegetal, sem sintéticos.",
-    "materials": ["Receita de origem vegetal", "Sem materiais sintéticos"],
-    "badge": "Vegano",
-    "image": "/images/products/set_no4v_reformer.jpg",
-    "order": 15
-  },
-  {
-    "slug": "no-5-the-savvy",
-    "name": "Conjunto Nº5",
-    "subtitle": "O Sofisticado",
-    "category": "Conjuntos de Cama",
-    "category_key": "bed-sets",
-    "price_eur": 8565,
-    "description": "Viva rápido, durma devagar: uma cama feita sob medida para o dia a dia.",
-    "materials": ["Feita sob medida", "Perfil contemporâneo"],
-    "image": "/images/products/set_no5_the_savvy.jpg",
-    "order": 16
-  },
-  {
-    "slug": "topper-horse-tail-wool",
-    "name": "Topper Crina & Lã",
-    "subtitle": "O mais vendido",
-    "category": "Toppers",
-    "category_key": "toppers",
-    "price_eur": 5140,
-    "description": "Nosso topper mais vendido: abundância de crina de cavalo solta e macia lã de ovelha.",
-    "materials": ["Crina de cavalo solta", "Lã de ovelha"],
-    "badge": "Mais vendido",
-    "image": "/images/products/topper_horse_wool.jpg",
-    "order": 21
-  },
-  {
-    "slug": "topper-horse-tail-cashmere",
-    "name": "Topper Crina & Cashmere",
-    "subtitle": "O sumptuoso",
-    "category": "Toppers",
-    "category_key": "toppers",
-    "price_eur": 17120,
-    "description": "Uma camada externa de cashmere puro sobre crina e lã, totalmente costurado à mão.",
-    "materials": ["Cashmere puro", "Crina de cavalo e lã"],
-    "image": "/images/products/topper_horse_cashmere.jpg",
-    "order": 22
-  },
-  {
-    "slug": "topper-hair-cotton",
-    "name": "Topper Crina & Algodão",
-    "subtitle": "A novidade",
-    "category": "Toppers",
-    "category_key": "toppers",
-    "price_eur": 4370,
-    "description": "Crina pentheada à mão em abundância, com algodão: um leito extra de conforto respirável.",
-    "materials": ["Crina pentheada à mão", "Algodão"],
-    "image": "/images/products/topper_hair_cotton.jpg",
-    "order": 23
-  },
-  {
-    "slug": "topper-cotton-wool",
-    "name": "Topper Algodão & Lã",
-    "subtitle": "O clássico",
-    "category": "Toppers",
-    "category_key": "toppers",
-    "price_eur": 2425,
-    "description": "Algodão solto em camadas generosas de lã de ovelha: qualidade em estado puro.",
-    "materials": ["Algodão solto", "Lã de ovelha"],
-    "image": "/images/products/topper_cotton_wool.jpg",
-    "order": 24
-  },
-  {
-    "slug": "topper-cotton-flax-vegan",
-    "name": "Topper Algodão & Linho",
-    "subtitle": "O Vegano",
-    "category": "Toppers",
-    "category_key": "toppers",
-    "price_eur": 5140,
-    "description": "Feito à mão com materiais de origem vegetal, certificado pela Vegan Society.",
-    "materials": ["Algodão e linho", "Certificação vegana"],
-    "badge": "Vegano",
-    "image": "/images/products/topper_vegan_flax.jpg",
-    "order": 25
-  },
-  {
-    "slug": "topper-yak-horse-tail",
-    "name": "Topper Yak & Crina",
-    "subtitle": "Edição rara",
-    "category": "Toppers",
-    "category_key": "toppers",
-    "price_eur": 36065,
-    "description": "Crina argentina disposta à mão e o exclusivo cabelo de yak da Mongólia: sumptuoso.",
-    "materials": ["Cabelo de yak da Mongólia", "Crina argentina"],
-    "badge": "Edição rara",
-    "image": "/images/products/topper_yak_horsetail.jpg",
-    "order": 26
-  },
-  {
-    "slug": "pillow-siberian-goose-down",
-    "name": "Travesseiro Duvet Siberiano",
-    "subtitle": "Ultra leve",
-    "category": "Travesseiros",
-    "category_key": "pillows",
-    "price_eur": 455,
-    "description": "Ultra leve e macio, perfeito para quem dorme de bruços ou de costas.",
-    "materials": ["Duvet de ganso siberiano branco"],
-    "image": "/images/products/pillow_siberian_down.jpg",
-    "order": 31
-  },
-  {
-    "slug": "pillow-masurian-multi-tension",
-    "name": "Travesseiro Multi-Tensão Masuriano",
-    "subtitle": "Três câmaras",
-    "category": "Travesseiros",
-    "category_key": "pillows",
-    "price_eur": 510,
-    "description": "Três câmaras individuais preenchidas com duvet de ganso masuriano branco.",
-    "materials": ["Duvet de ganso masuriano", "Três câmaras de tensão"],
-    "image": "/images/products/pillow_masurian_multi.jpg",
-    "order": 32
-  },
-  {
-    "slug": "pillow-canadian-goose-down-feather",
-    "name": "Travesseiro Canadense Down & Pena",
-    "subtitle": "O versátil",
-    "category": "Travesseiros",
-    "category_key": "pillows",
-    "price_eur": 390,
-    "description": "Versátil, preenchido com duvet de ganso canadense premium e penas pequenas.",
-    "materials": ["Duvet de ganso canadense", "Penas pequenas"],
-    "image": "/images/products/pillow_canadian_pair.jpg",
-    "order": 33
-  },
-  {
-    "slug": "pillow-siberian-goose-down-feather",
-    "name": "Travesseiro Siberiano Down & Pena",
-    "subtitle": "Firme",
-    "category": "Travesseiros",
-    "category_key": "pillows",
-    "price_eur": 450,
-    "description": "Tensão firme, com núcleo de duvet e penas de ganso siberiano: ideal para quem dorme de lado.",
-    "materials": ["Duvet e penas de ganso siberiano", "Tensão firme"],
-    "image": "/images/products/pillow_siberian_firm.jpg",
-    "order": 34
-  },
-  {
-    "slug": "pillow-hungarian-goose-down-feather",
-    "name": "Travesseiro Húngaro Down & Pena",
-    "subtitle": "O natural",
-    "category": "Travesseiros",
-    "category_key": "pillows",
-    "price_eur": 250,
-    "description": "Luxo natural: duvet branco puro de ganso húngaro e penas pequenas, com acabamento em sati.",
-    "materials": ["Duvet de ganso húngaro branco", "Acabamento em sati"],
-    "image": "/images/products/pillow_hungarian_piping.jpg",
-    "order": 35
-  }
+ {
+  "slug": "no1-mattress",
+  "name": "Colchão Nº1",
+  "subtitle": "O Pináculo",
+  "category": "Colchões",
+  "category_key": "mattresses",
+  "price_eur": 58285,
+  "description": "O auge do luxo: feito à mão em Londres, é o colchão definitivo em conforto e materiais nobres.",
+  "materials": [
+   "Feito à mão em Londres",
+   "Materiais naturais nobres",
+   "Costura à mão"
+  ],
+  "badge": "O Pináculo",
+  "image": "/images/products/prod_no1_mattress.jpg",
+  "macro_image": "/images/products/detail_border_macro.jpg",
+  "order": 1
+ },
+ {
+  "slug": "no-2-mattress",
+  "name": "Colchão Nº2",
+  "subtitle": "O Ícone",
+  "category": "Colchões",
+  "category_key": "mattresses",
+  "price_eur": 19635,
+  "description": "Um curso mestre em artesanato, conforto e estilo há mais de 100 anos.",
+  "materials": [
+   "Crina de cavalo",
+   "Molas ensacadas costuradas à mão"
+  ],
+  "badge": "O Ícone",
+  "image": "/images/products/prod_no2_mattress.jpg",
+  "macro_image": "/images/products/detail_border_macro.jpg",
+  "order": 2
+ },
+ {
+  "slug": "no-3-mattress",
+  "name": "Colchão Nº3",
+  "subtitle": "O Sonho Profundo",
+  "category": "Colchões",
+  "category_key": "mattresses",
+  "price_eur": 12595,
+  "description": "Sonhadoramente profundo: a prova da qualidade que nos tornou famosos.",
+  "materials": [
+   "Profundidade extra",
+   "Materiais naturais respiráveis"
+  ],
+  "image": "/images/products/prod_no3_mattress.jpg",
+  "macro_image": "/images/products/detail_border_macro.jpg",
+  "order": 3
+ },
+ {
+  "slug": "no-4-mattress",
+  "name": "Colchão Nº4",
+  "subtitle": "O Padrão dos Grandes Hotéis",
+  "category": "Colchões",
+  "category_key": "mattresses",
+  "price_eur": 7545,
+  "description": "Criado a pedido de alguns dos melhores hotéis do mundo.",
+  "materials": [
+   "Desenvolvido para hotéis de luxo",
+   "Costura à mão"
+  ],
+  "image": "/images/products/prod_no4_mattress.jpg",
+  "macro_image": "/images/products/detail_border_macro.jpg",
+  "order": 4
+ },
+ {
+  "slug": "no-4v-mattress",
+  "name": "Colchão Nº4v",
+  "subtitle": "O Vegano",
+  "category": "Colchões",
+  "category_key": "mattresses",
+  "price_eur": 12595,
+  "description": "Feito à mão com materiais naturais de origem vegetal, para o sono mais puro.",
+  "materials": [
+   "Materiais de origem vegetal",
+   "Sem materiais sintéticos"
+  ],
+  "badge": "Vegano",
+  "image": "/images/products/prod_no4v_mattress.jpg",
+  "macro_image": "/images/products/detail_border_macro.jpg",
+  "order": 5
+ },
+ {
+  "slug": "no-5-mattress",
+  "name": "Colchão Nº5",
+  "subtitle": "O Essencial",
+  "category": "Colchões",
+  "category_key": "mattresses",
+  "price_eur": 4265,
+  "description": "Feito sob encomenda em nosso ateliê: a base definitiva para o autocuidado diário.",
+  "materials": [
+   "Feito sob encomenda",
+   "Costura à mão"
+  ],
+  "image": "/images/products/prod_no5_mattress.jpg",
+  "macro_image": "/images/products/detail_border_macro.jpg",
+  "order": 6
+ },
+ {
+  "slug": "no-1-the-one",
+  "name": "Conjunto Nº1",
+  "subtitle": "O Único",
+  "category": "Conjuntos de Cama",
+  "category_key": "bed-sets",
+  "price_eur": 119100,
+  "description": "O corolário de mais de um século de arte em camas: ao menos 120 horas de trabalho manual.",
+  "materials": [
+   "120 horas de trabalho manual",
+   "Cabecilho profundo capitonê"
+  ],
+  "badge": "120 h à mão",
+  "image": "/images/products/set_no1_the_one.jpg",
+  "order": 11
+ },
+ {
+  "slug": "no-2-the-icon",
+  "name": "Conjunto Nº2",
+  "subtitle": "O Ícone",
+  "category": "Conjuntos de Cama",
+  "category_key": "bed-sets",
+  "price_eur": 37420,
+  "description": "A receita encomendada para o hotel Savoy em 1905: uma aula mestre de conforto e estilo.",
+  "materials": [
+   "Encomendado para o Savoy em 1905",
+   "Mais de 80 horas à mão"
+  ],
+  "badge": "Desde 1905",
+  "image": "/images/products/set_no2_the_icon.jpg",
+  "order": 12
+ },
+ {
+  "slug": "no-3-the-superior",
+  "name": "Conjunto Nº3",
+  "subtitle": "O Superior",
+  "category": "Conjuntos de Cama",
+  "category_key": "bed-sets",
+  "price_eur": 25725,
+  "description": "Quase duas semanas de artesanato habilidoso e uma abundância imensa dos melhores materiais naturais respiráveis.",
+  "materials": [
+   "Quase duas semanas de artesanato",
+   "Materiais naturais respiráveis"
+  ],
+  "image": "/images/products/set_no3_the_superior.jpg",
+  "order": 13
+ },
+ {
+  "slug": "no-4-the-new-standard",
+  "name": "Conjunto Nº4",
+  "subtitle": "O Novo Padrão",
+  "category": "Conjuntos de Cama",
+  "category_key": "bed-sets",
+  "price_eur": 15205,
+  "description": "Uma obra-prima de longevidade e conforto, nascida da demanda dos grandes hotéis.",
+  "materials": [
+   "Longevidade e conforto",
+   "Costura à mão"
+  ],
+  "image": "/images/products/set_no4_new_standard.jpg",
+  "order": 14
+ },
+ {
+  "slug": "no-4v-the-reformer",
+  "name": "Conjunto Nº4v",
+  "subtitle": "O Reformador",
+  "category": "Conjuntos de Cama",
+  "category_key": "bed-sets",
+  "price_eur": 25725,
+  "description": "Uma receita para dormir melhor: os mais finos materiais de origem vegetal, sem sintéticos.",
+  "materials": [
+   "Receita de origem vegetal",
+   "Sem materiais sintéticos"
+  ],
+  "badge": "Vegano",
+  "image": "/images/products/set_no4v_reformer.jpg",
+  "order": 15
+ },
+ {
+  "slug": "no-5-the-savvy",
+  "name": "Conjunto Nº5",
+  "subtitle": "O Sofisticado",
+  "category": "Conjuntos de Cama",
+  "category_key": "bed-sets",
+  "price_eur": 8565,
+  "description": "Viva rápido, durma devagar: uma cama feita sob medida para o dia a dia.",
+  "materials": [
+   "Feita sob medida",
+   "Perfil contemporâneo"
+  ],
+  "image": "/images/products/set_no5_the_savvy.jpg",
+  "order": 16
+ },
+ {
+  "slug": "topper-horse-tail-wool",
+  "name": "Topper Crina & Lã",
+  "subtitle": "O mais vendido",
+  "category": "Toppers",
+  "category_key": "toppers",
+  "price_eur": 5140,
+  "description": "Nosso topper mais vendido: abundância de crina de cavalo solta e macia lã de ovelha.",
+  "materials": [
+   "Crina de cavalo solta",
+   "Lã de ovelha"
+  ],
+  "badge": "Mais vendido",
+  "image": "/images/products/topper_horse_wool.jpg",
+  "order": 21
+ },
+ {
+  "slug": "topper-horse-tail-cashmere",
+  "name": "Topper Crina & Cashmere",
+  "subtitle": "O sumptuoso",
+  "category": "Toppers",
+  "category_key": "toppers",
+  "price_eur": 17120,
+  "description": "Uma camada externa de cashmere puro sobre crina e lã, totalmente costurado à mão.",
+  "materials": [
+   "Cashmere puro",
+   "Crina de cavalo e lã"
+  ],
+  "image": "/images/products/topper_horse_cashmere.jpg",
+  "order": 22
+ },
+ {
+  "slug": "topper-hair-cotton",
+  "name": "Topper Crina & Algodão",
+  "subtitle": "A novidade",
+  "category": "Toppers",
+  "category_key": "toppers",
+  "price_eur": 4370,
+  "description": "Crina pentheada à mão em abundância, com algodão: um leito extra de conforto respirável.",
+  "materials": [
+   "Crina pentheada à mão",
+   "Algodão"
+  ],
+  "image": "/images/products/topper_hair_cotton.jpg",
+  "order": 23
+ },
+ {
+  "slug": "topper-cotton-wool",
+  "name": "Topper Algodão & Lã",
+  "subtitle": "O clássico",
+  "category": "Toppers",
+  "category_key": "toppers",
+  "price_eur": 2425,
+  "description": "Algodão solto em camadas generosas de lã de ovelha: qualidade em estado puro.",
+  "materials": [
+   "Algodão solto",
+   "Lã de ovelha"
+  ],
+  "image": "/images/products/topper_cotton_wool.jpg",
+  "order": 24
+ },
+ {
+  "slug": "topper-cotton-flax-vegan",
+  "name": "Topper Algodão & Linho",
+  "subtitle": "O Vegano",
+  "category": "Toppers",
+  "category_key": "toppers",
+  "price_eur": 5140,
+  "description": "Feito à mão com materiais de origem vegetal, certificado pela Vegan Society.",
+  "materials": [
+   "Algodão e linho",
+   "Certificação vegana"
+  ],
+  "badge": "Vegano",
+  "image": "/images/products/topper_vegan_flax.jpg",
+  "order": 25
+ },
+ {
+  "slug": "topper-yak-horse-tail",
+  "name": "Topper Yak & Crina",
+  "subtitle": "Edição rara",
+  "category": "Toppers",
+  "category_key": "toppers",
+  "price_eur": 36065,
+  "description": "Crina argentina disposta à mão e o exclusivo cabelo de yak da Mongólia: sumptuoso.",
+  "materials": [
+   "Cabelo de yak da Mongólia",
+   "Crina argentina"
+  ],
+  "badge": "Edição rara",
+  "image": "/images/products/topper_yak_horsetail.jpg",
+  "order": 26
+ },
+ {
+  "slug": "pillow-siberian-goose-down",
+  "name": "Travesseiro Duvet Siberiano",
+  "subtitle": "Ultra leve",
+  "category": "Travesseiros",
+  "category_key": "pillows",
+  "price_eur": 455,
+  "description": "Ultra leve e macio, perfeito para quem dorme de bruços ou de costas.",
+  "materials": [
+   "Duvet de ganso siberiano branco"
+  ],
+  "image": "/images/products/pillow_siberian_down.jpg",
+  "order": 31
+ },
+ {
+  "slug": "pillow-masurian-multi-tension",
+  "name": "Travesseiro Multi-Tensão Masuriano",
+  "subtitle": "Três câmaras",
+  "category": "Travesseiros",
+  "category_key": "pillows",
+  "price_eur": 510,
+  "description": "Três câmaras individuais preenchidas com duvet de ganso masuriano branco.",
+  "materials": [
+   "Duvet de ganso masuriano",
+   "Três câmaras de tensão"
+  ],
+  "image": "/images/products/pillow_masurian_multi.jpg",
+  "order": 32
+ },
+ {
+  "slug": "pillow-canadian-goose-down-feather",
+  "name": "Travesseiro Canadense Down & Pena",
+  "subtitle": "O versátil",
+  "category": "Travesseiros",
+  "category_key": "pillows",
+  "price_eur": 390,
+  "description": "Versátil, preenchido com duvet de ganso canadense premium e penas pequenas.",
+  "materials": [
+   "Duvet de ganso canadense",
+   "Penas pequenas"
+  ],
+  "image": "/images/products/pillow_canadian_pair.jpg",
+  "order": 33
+ },
+ {
+  "slug": "pillow-siberian-goose-down-feather",
+  "name": "Travesseiro Siberiano Down & Pena",
+  "subtitle": "Firme",
+  "category": "Travesseiros",
+  "category_key": "pillows",
+  "price_eur": 450,
+  "description": "Tensão firme, com núcleo de duvet e penas de ganso siberiano: ideal para quem dorme de lado.",
+  "materials": [
+   "Duvet e penas de ganso siberiano",
+   "Tensão firme"
+  ],
+  "image": "/images/products/pillow_siberian_firm.jpg",
+  "order": 34
+ },
+ {
+  "slug": "pillow-hungarian-goose-down-feather",
+  "name": "Travesseiro Húngaro Down & Pena",
+  "subtitle": "O natural",
+  "category": "Travesseiros",
+  "category_key": "pillows",
+  "price_eur": 250,
+  "description": "Luxo natural: duvet branco puro de ganso húngaro e penas pequenas, com acabamento em sati.",
+  "materials": [
+   "Duvet de ganso húngaro branco",
+   "Acabamento em sati"
+  ],
+  "image": "/images/products/pillow_hungarian_piping.jpg",
+  "order": 35
+ },
+ {
+  "slug": "authenticity",
+  "name": "Cama Authenticity",
+  "subtitle": "A Alfaiataria",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Uma fusão da alfaiataria de Savile Row com o nosso artesanato.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_authenticity.jpg",
+  "macro_image": null,
+  "order": 40
+ },
+ {
+  "slug": "claudia",
+  "name": "Cama Cláudia",
+  "subtitle": "O Rococó",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Silhueta inspirada no Rococó, com detalhes clássicos.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_claudia.jpg",
+  "macro_image": null,
+  "order": 41
+ },
+ {
+  "slug": "amelia-boucle",
+  "name": "Cama Amélia — Bouclé",
+  "subtitle": "As Asas Curvas",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 10810.0,
+  "description": "Asas curvas contemporâneas que deságuam numa base esbelta.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_amelia_boucle.jpg",
+  "macro_image": null,
+  "order": 42
+ },
+ {
+  "slug": "luna",
+  "name": "Cama Luna",
+  "subtitle": "O Iate",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 20555.0,
+  "description": "Design inspirado em iates de superyacht, com detalhes refinados.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_luna.jpg",
+  "macro_image": null,
+  "order": 43
+ },
+ {
+  "slug": "alex",
+  "name": "Cama Alex",
+  "subtitle": "O Discreto",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Design simples e versátil que exala luxo silencioso.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_alex.jpg",
+  "macro_image": null,
+  "order": 44
+ },
+ {
+  "slug": "max",
+  "name": "Cama Max",
+  "subtitle": "Os Painéis",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Painéis generosos e texturas ricas, para os sonhos mais profundos.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_max.jpg",
+  "macro_image": null,
+  "order": 45
+ },
+ {
+  "slug": "hatti",
+  "name": "Cama Hatti",
+  "subtitle": "A Geometria",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Geometria artística que encontra a elegância duradoura.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_hatti.jpg",
+  "macro_image": null,
+  "order": 46
+ },
+ {
+  "slug": "elly",
+  "name": "Cama Elly",
+  "subtitle": "O Violino",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Uma ode à elegância atemporal do violino.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_elly.jpg",
+  "macro_image": null,
+  "order": 47
+ },
+ {
+  "slug": "ian-boucle",
+  "name": "Cama Ian — Bouclé",
+  "subtitle": "O Minimalista",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Um olhar moderno sobre a forma minimalista.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_ian_boucle.jpg",
+  "macro_image": null,
+  "order": 48
+ },
+ {
+  "slug": "tranquility",
+  "name": "Cama Tranquility",
+  "subtitle": "A Era de Ouro",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Conforto feito à mão, inspirado na era de ouro das viagens.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_tranquility.jpg",
+  "macro_image": null,
+  "order": 49
+ },
+ {
+  "slug": "hugo",
+  "name": "Cama Hugo",
+  "subtitle": "Os Motivos Britânicos",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 15975.0,
+  "description": "Motivos das casas senhoriais britânicas.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_hugo.jpg",
+  "macro_image": null,
+  "order": 50
+ },
+ {
+  "slug": "holly",
+  "name": "Cama Holly",
+  "subtitle": "O Capitonê Ondulado",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Capitonê suave e ondulado para um luxo discreto.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_holly.jpg",
+  "macro_image": null,
+  "order": 51
+ },
+ {
+  "slug": "winston",
+  "name": "Cama Winston",
+  "subtitle": "O Modernista",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 10810.0,
+  "description": "Design icônico de inspiração modernista, com proporções refinadas.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_winston.jpg",
+  "macro_image": null,
+  "order": 52
+ },
+ {
+  "slug": "lenoir",
+  "name": "Cama Lenoir",
+  "subtitle": "As Curvas",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Um conto feito à mão de curvas graciosas e artesanato atemporal.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_lenoir.jpg",
+  "macro_image": null,
+  "order": 53
+ },
+ {
+  "slug": "felix-frampton-verdure",
+  "name": "Cama Félix — Tapeçaria",
+  "subtitle": "A Tapeçaria Verde",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "A reimaginação de 'Frampton Verdure', belamente emoldurada.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_felix_frampton.jpg",
+  "macro_image": null,
+  "order": 54
+ },
+ {
+  "slug": "harlech-nailed",
+  "name": "Cama Harlech — Rebitada",
+  "subtitle": "Os Rebites",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6990.0,
+  "description": "Silhueta angular e aerodinâmica com detalhe de rebites.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_harlech_nailed.jpg",
+  "macro_image": null,
+  "order": 55
+ },
+ {
+  "slug": "amelia-wool",
+  "name": "Cama Amélia — Lã",
+  "subtitle": "O Arco",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 10810.0,
+  "description": "Um arco film noir que leva a uma base slim, para opulência equilibrada.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_amelia_wool.jpg",
+  "macro_image": null,
+  "order": 56
+ },
+ {
+  "slug": "virginia",
+  "name": "Cama Virgínia",
+  "subtitle": "A Elegância",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Silhueta elegante com detalhes de estilo contemporâneo.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_virginia.jpg",
+  "macro_image": null,
+  "order": 57
+ },
+ {
+  "slug": "felix-national-gallery",
+  "name": "Cama Félix — National Gallery",
+  "subtitle": "A Renascença",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Criada para exibir a sua Renascença.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_felix_national_gallery.jpg",
+  "macro_image": null,
+  "order": 58
+ },
+ {
+  "slug": "cassie",
+  "name": "Cama Cassie",
+  "subtitle": "A Cor Ousada",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Bordas suaves e curvas charmosas que encontram a cor ousada.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_cassie.jpg",
+  "macro_image": null,
+  "order": 59
+ },
+ {
+  "slug": "hudson",
+  "name": "Cama Hudson",
+  "subtitle": "O Futurista",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Um momento futurista envolto em cor alegre.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_hudson.jpg",
+  "macro_image": null,
+  "order": 60
+ },
+ {
+  "slug": "harlech-national-gallery",
+  "name": "Cama Harlech — Galeria",
+  "subtitle": "A Tela",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6310.0,
+  "description": "Uma tela em branco para exibir uma obra-prima.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_harlech_national_gallery.jpg",
+  "macro_image": null,
+  "order": 61
+ },
+ {
+  "slug": "chrissy",
+  "name": "Cama Chrissy",
+  "subtitle": "O Encanto",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Um casamento de charme e sofisticação lúdica.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_chrissy.jpg",
+  "macro_image": null,
+  "order": 62
+ },
+ {
+  "slug": "felix-bacchus",
+  "name": "Cama Félix — Baco",
+  "subtitle": "A Procissão de Baco",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "'A Procissão de Baco', belamente emoldurada.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_felix_bacchus.jpg",
+  "macro_image": null,
+  "order": 63
+ },
+ {
+  "slug": "ian-linen",
+  "name": "Cama Ian — Linho",
+  "subtitle": "O Nórdico",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6890.0,
+  "description": "Simplicidade nórdica discreta em tons contemporâneos.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_ian_linen.jpg",
+  "macro_image": null,
+  "order": 64
+ },
+ {
+  "slug": "cloud",
+  "name": "Cama Cloud",
+  "subtitle": "A Nuvem",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Forma orgânica e função criam um design onírico.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_cloud.jpg",
+  "macro_image": null,
+  "order": 65
+ },
+ {
+  "slug": "savoy",
+  "name": "Cama Savoy",
+  "subtitle": "O Art Déco",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Formas Art Déco que encontram um tecido do século XXI.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_savoy.jpg",
+  "macro_image": null,
+  "order": 66
+ },
+ {
+  "slug": "felix-plain",
+  "name": "Cama Félix — Clássica",
+  "subtitle": "O Clássico",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 8410.0,
+  "description": "Luxo clássico em parceria com o estilo contemporâneo.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_felix_plain.jpg",
+  "macro_image": null,
+  "order": 67
+ },
+ {
+  "slug": "harlech-piped",
+  "name": "Cama Harlech — com Vivo",
+  "subtitle": "O Vivo Contraste",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 6452.5,
+  "description": "Silhueta angular com vivo de contraste acentuado.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_harlech_piped.jpg",
+  "macro_image": null,
+  "order": 68
+ },
+ {
+  "slug": "louis",
+  "name": "Cama Luís",
+  "subtitle": "O Isabelino",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Colar de cama de inspiração isabelina em tweed sob medida.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_louis.jpg",
+  "macro_image": null,
+  "order": 69
+ },
+ {
+  "slug": "state",
+  "name": "Cama State",
+  "subtitle": "O Diamante",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 20865.0,
+  "description": "Proporções senhoriais, elevadas pelo capitonê diamante.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_state.jpg",
+  "macro_image": null,
+  "order": 70
+ },
+ {
+  "slug": "stella",
+  "name": "Cama Stella",
+  "subtitle": "O Teddy Mohair",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 11695.0,
+  "description": "Geometria artística que encontra o mohair teddy aveludado.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_stella.jpg",
+  "macro_image": null,
+  "order": 71
+ },
+ {
+  "slug": "ocean",
+  "name": "Cama Ocean",
+  "subtitle": "O Oceano",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Impressão em couro pioneira que encontra o artesanato tradicional.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_ocean.jpg",
+  "macro_image": null,
+  "order": 72
+ },
+ {
+  "slug": "b-bed",
+  "name": "Cama B",
+  "subtitle": "Os Anos 70",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Inspirada nas molas ensacadas, com um aceno aos móveis dos anos 1970.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_b_bed.jpg",
+  "macro_image": null,
+  "order": 73
+ },
+ {
+  "slug": "gorrivan",
+  "name": "Cama Gorrivan",
+  "subtitle": "O Tweed",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Cabeceira de formas generosas em tweed, ecoando um casarão de campo.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_gorrivan.jpg",
+  "macro_image": null,
+  "order": 74
+ },
+ {
+  "slug": "moon",
+  "name": "Cama Moon",
+  "subtitle": "A Lua",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Uma representação marcante da Lua, com seu brilho lunar.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_moon.jpg",
+  "macro_image": null,
+  "order": 75
+ },
+ {
+  "slug": "kiku",
+  "name": "Cama Kiku",
+  "subtitle": "O Japão",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Inspirada na arte japonesa, celebrando o Oriente e o Ocidente.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_kiku.jpg",
+  "macro_image": null,
+  "order": 76
+ },
+ {
+  "slug": "lilies",
+  "name": "Cama Lilies",
+  "subtitle": "Os Lírios",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "O icônico motivo 'Lilies' de Zandra Rhodes, reinterpretado.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_lilies.jpg",
+  "macro_image": null,
+  "order": 77
+ },
+ {
+  "slug": "the-seventy-five",
+  "name": "Cama The Seventy Five",
+  "subtitle": "Com Áudio",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Design inovador com alto-falantes perfeitamente integrados.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_the_seventy_five.jpg",
+  "macro_image": null,
+  "order": 78
+ },
+ {
+  "slug": "screen",
+  "name": "Cama Screen",
+  "subtitle": "O Paravento",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Interpretação moderna dos paraventos chineses tradicionais.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_screen.jpg",
+  "macro_image": null,
+  "order": 79
+ },
+ {
+  "slug": "penelope",
+  "name": "Cama Penélope",
+  "subtitle": "O Barroco",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 20055.0,
+  "description": "Reminiscente do período barroco, com linhas esculturais.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_penelope.jpg",
+  "macro_image": null,
+  "order": 80
+ },
+ {
+  "slug": "the-three-sixty",
+  "name": "Cama The Three Sixty",
+  "subtitle": "O Completo",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "O auge do luxo: a cama que tem tudo.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_the_three_sixty.jpg",
+  "macro_image": null,
+  "order": 81
+ },
+ {
+  "slug": "shift",
+  "name": "Cama Shift",
+  "subtitle": "O Experimental",
+  "category": "Móveis",
+  "category_key": "designs",
+  "price_eur": 0.0,
+  "description": "Design experimental com barras de empilhamento ajustáveis.",
+  "materials": [
+   "Estrutura sob medida",
+   "Placa de latão gravada Mognu’s"
+  ],
+  "badge": null,
+  "image": "/images/products/design_shift.jpg",
+  "macro_image": null,
+  "order": 82
+ }
 ]

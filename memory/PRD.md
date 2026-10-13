@@ -25,9 +25,10 @@
 
 ## Implementado (2026-10-13)
 - Catálogo completo com preços corretos (23 peças), lupa + ampliação, marca aplicada nas fotos, hero/marquee/atelier/footer, testids em todos os elementos interativos, API validada por curl, screenshots desktop 1440 e mobile 390 sem overflow e sem overlay de erro.
+- 2ª fase (mesmo dia): os 43 móveis (Bed Designs) adicionados — aba "Móveis" com 43 peças únicas, preços exatos (6.452,50 € preservado) e 14 peças "Sob consulta" (sem preço publicado na origem). Total do catálogo: 66 produtos. Verificado desktop + mobile.
 
 ## Backlog / P0-P2
-- P0: adicionar demais coleções do site de origem (roupa de cama, protetores, designs sob medida) com fotos geradas.
+- P0: adicionar coleções restantes do site de origem (roupa de cama, protetores, linho/algodão).
 - P1: página de detalhe por produto (medidas por tamanho, preços por variante da API de origem); consultoria/agendamento (modal com formulário + e-mail).
 - P2: SEO completo (skill farm-seo-setup: OG images, sitemap), i18n PT/EN, WhatsApp comercial real.
 
