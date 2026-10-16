@@ -94,4 +94,7 @@ async def get_product(slug: str):
     return Product.from_mongo(doc)
 
 
+from campaign import router as campaign_router
+
 app.include_router(router)
+app.include_router(campaign_router)

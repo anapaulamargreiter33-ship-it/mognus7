@@ -1,5 +1,12 @@
 # PRD — MOGNU'S · Mognus Company — Carpintaria & Mobiliário (Loulé, Algarve)
 
+## Campanha "Cozinhas em 15 dias" (2026-10-16)
+- Landing page premium multilingue em /cozinha (PT-PT padrão + DE/FR/ES, seletor elegante, idioma do navegador sugerido): hero de impacto ("A cozinha com que sempre sonhou. Em 15 dias úteis."), galeria horizontal deslizante com 6 modelos (Natural, Contemporânea, Minimalista, Clássica moderna, Urbana, Sofisticada) com lupa/ampliação e badge "Imagem de inspiração", botão individual "Quero saber mais sobre esta cozinha" por modelo, secção "Encontrou a cozinha ideal?" com seleção persistente, campanha 15 dias úteis (condições honestas, sem promessas de descontos/escrow), processo em 4 etapas, Sobre (Jardel Silveira + links oficiais), formulário com RGPD + consentimento comercial opcional separado + honeypot anti-spam + UTM, banner de cookies com aceitar/rejeitar/configurar (PostHog só carrega após consentimento de análise; Meta Pixel preparado e sujeito a consentimento), Políticas de Privacidade e Cookies em 4 idiomas, footer com contactos oficiais (+351 930 636 700, geral@mognuscompany.com, Estrada de Vale Judeu 8, Loulé; Maps, Instagram, site) e logótipo oficial (ficheiro original do cliente).
+- Painel administrativo privado em /cozinha/admin: autenticação real JWT (bcrypt, cookies httpOnly, brute-force 5 tentativas/15min, recuperação por token), métricas (visitas, únicos, pedidos, conversão, por dia/modelo/idioma/estado/origem, filtros), CRM (estados Novo→Contactado→Em avaliação→Proposta→Cliente + Sem resposta/Não convertido/Arquivado, pesquisa, notas internas, export CSV), gestão de utilizadores (criar/revogar).
+- Credenciais de teste: /app/memory/test_credentials.md (admin@mognuscompany.com / Mognus#2026-Cozinhas).
+- Vídeo: conforme decisão do cliente, NÃO vai na landing (fica só na publicação do Instagram).
+- Domínio próprio (ex.: cozinhas.mognuscompany.com): a ligar posteriormente pelo cliente.
+
 ## Problema original (verbatim)
 "Quero que você insira no meu site todas as imagens dos produtos e seus respectivos preços que estão no site que vou enviar... Melhore bastante a qualidade das imagens... Inclua a marca MOGNU'S nos móveis... Disponibilize lupa e ampliação..."
 ## Iteração 2 (verbatim resumido): "O site ficou muito lindo! Quero manter exatamente esse estilo... a MOGNU'S é uma carpintaria que também vende colchões e outros produtos, então retire a apresentação como 'ateliê'. Você está usando produtos que não são os nossos. Substitua pelas imagens dos produtos reais... com os respectivos preços."
