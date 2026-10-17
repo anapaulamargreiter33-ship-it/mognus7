@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { MODELS, useLang } from "@/campaign/i18n";
 
-export default function KitchenGallery({ onOpenModel, onZoom }) {
+export default function KitchenGallery({ onZoom }) {
   const { t } = useLang();
 
   const scrollBy = (dir) => {
@@ -24,10 +24,8 @@ export default function KitchenGallery({ onOpenModel, onZoom }) {
               <span className="h-px w-10 bg-brass" />
               {t("gal.eyebrow")}
             </p>
-            <h2 className="font-serif text-4xl font-light leading-tight text-ivory sm:text-5xl lg:text-6xl">
-              {t("gal.title1")}
-              <br />
-              <span className="italic text-walnut">{t("gal.title2")}</span>
+            <h2 className="max-w-2xl font-serif text-4xl font-light leading-tight text-ivory sm:text-5xl lg:text-6xl">
+              {t("gal.title")}
             </h2>
           </div>
           <div className="flex items-center gap-4">
@@ -74,7 +72,12 @@ export default function KitchenGallery({ onOpenModel, onZoom }) {
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: (i % 3) * 0.08 }}
               className="group w-[86vw] shrink-0 snap-center sm:w-[520px] lg:w-[600px]"
             >
-              <div className="img-zoom-cursor relative aspect-[4/3] overflow-hidden rounded-sm bg-ink2 vignette">
+              <button
+                data-testid={`kitchen-open-${m.key}`}
+                onClick={() => onZoom(m)}
+                className="img-zoom-cursor relative block aspect-[4/3] w-full overflow-hidden rounded-sm bg-ink2 vignette text-left"
+                aria-label={`${t(`model.${m.key}.name`)} — ver mais`}
+              >
                 <img
                   src={m.img}
                   alt={`${t(`model.${m.key}.name`)} — cozinha por medida MOGNU'S`}
@@ -87,29 +90,17 @@ export default function KitchenGallery({ onOpenModel, onZoom }) {
                 <span className="absolute right-4 top-4 font-serif text-3xl text-bone/80 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
                   {m.id}
                 </span>
-                <button
-                  data-testid={`kitchen-zoom-${m.key}`}
-                  onClick={() => onZoom(m)}
-                  className="absolute bottom-4 right-4 flex items-center gap-2 rounded-full border border-bone/30 bg-ink/55 px-5 py-2.5 text-[10px] font-medium uppercase tracking-[0.24em] text-bone opacity-0 backdrop-blur-md transition-all duration-500 hover:border-brass hover:text-brass-light group-hover:opacity-100"
-                >
-                  <svg viewBox="0 0 24 24" fill="none" className="h-3.5 w-3.5" stroke="currentColor" strokeWidth="1.8">
-                    <circle cx="11" cy="11" r="7" />
-                    <path d="m20 20-3.5-3.5M8 11h6m-3-3v6" strokeLinecap="round" />
-                  </svg>
-                  {t("zoom")}
-                </button>
-              </div>
+              </button>
               <div className="pt-5">
                 <h3 className="font-serif text-2xl font-light text-ivory">
                   <span className="text-brass-dark">{m.id}</span> — {t(`model.${m.key}.name`)}
                 </h3>
-                <p className="mt-1.5 max-w-md text-sm leading-relaxed text-mute">{t(`model.${m.key}.desc`)}</p>
                 <button
                   data-testid={`kitchen-cta-${m.key}`}
-                  onClick={() => onOpenModel(t(`model.${m.key}.name`))}
-                  className="mt-4 inline-flex items-center gap-2 border-b border-brass pb-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-brass-dark transition-colors hover:text-brass"
+                  onClick={() => onZoom(m)}
+                  className="mt-3 inline-flex items-center gap-2 border-b border-brass pb-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-brass-dark transition-colors hover:text-brass"
                 >
-                  {t("cta.model")}
+                  {t("gal.card.cta")}
                   <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M5 12h14m-6-6 6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
@@ -118,6 +109,22 @@ export default function KitchenGallery({ onOpenModel, onZoom }) {
             </motion.article>
           ))}
         </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          data-testid="gallery-disclaimer"
+          className="mt-12 border-t border-line pt-8"
+        >
+          <p className="max-w-3xl text-[11px] font-semibold uppercase tracking-[0.18em] text-walnut">
+            {t("gal.disc.title")}
+          </p>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-mute">{t("gal.disc.text")}</p>
+        </motion.div>
       </div>
     </section>
   );

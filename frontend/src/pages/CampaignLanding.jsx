@@ -1,18 +1,16 @@
 import { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import { LangProvider, useLang } from "@/campaign/i18n";
 import CampaignNav from "@/campaign/CampaignNav";
 import CampaignHero from "@/campaign/CampaignHero";
 import KitchenGallery from "@/campaign/KitchenGallery";
 import KitchenLightbox from "@/campaign/KitchenLightbox";
-import LeadForm from "@/campaign/LeadForm";
-import CookieConsent, { readConsent } from "@/campaign/CookieConsent";
+import LeadFormSection from "@/campaign/LeadForm";
+import CookieConsent from "@/campaign/CookieConsent";
 import CampaignFooter from "@/campaign/CampaignFooter";
-import { CampaignSection, ContactoSection, FoundSection, HistoriaSection, PorqueSection, ProcessSection } from "@/campaign/CampaignSections";
+import { AboutSection, AdminSection, FinalCtaSection, FoundSection, PrivacySection, ProcessSection } from "@/campaign/CampaignSections";
 
 function LandingInner() {
   const { lang } = useLang();
-  const [formModel, setFormModel] = useState(null); // null = fechado; string = aberto
   const [selectedModel, setSelectedModel] = useState("");
   const [zoomModel, setZoomModel] = useState(null);
   const sourceRef = useRef("");
@@ -37,25 +35,36 @@ function LandingInner() {
     }
   }, [lang]);
 
-  const openForm = (modelLabel) => {
-    if (modelLabel) setSelectedModel(modelLabel);
-    setFormModel(modelLabel ?? "");
+  const goToForm = (modelLabel) => {
+    setSelectedModel(modelLabel || "");
+    const el = document.getElementById("pedido");
+    if (el) {
+      if (window.__lenis) window.__lenis.scrollTo(el, { offset: -40 });
+      else el.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <main id="top" className="bg-bone text-ivory antialiased">
-      <CampaignNav onOpenModel={openForm} />
+      <CampaignNav onOpenModel={goToForm} />
       <CampaignHero />
-      <KitchenGallery onOpenModel={openForm} onZoom={setZoomModel} />
-      <FoundSection onOpenModel={openForm} selectedModel={selectedModel} />
-      <CampaignSection />
+      <KitchenGallery onZoom={setZoomModel} />
+      <FoundSection onOpenModel={goToForm} selectedModel={selectedModel} />
       <ProcessSection />
-      <PorqueSection />
-      <HistoriaSection />
-      <ContactoSection onOpenModel={openForm} />
-      <CampaignFooter onOpenModel={openForm} />
-      <KitchenLightbox model={zoomModel} onClose={() => setZoomModel(null)} onWantMore={(label) => { setZoomModel(null); openForm(label); }} />
-      <LeadForm model={formModel} onClose={() => setFormModel(null)} />
+      <AboutSection />
+      <LeadFormSection selectedModel={selectedModel} />
+      <FinalCtaSection />
+      <AdminSection />
+      <PrivacySection />
+      <CampaignFooter onOpenModel={goToForm} />
+      <KitchenLightbox
+        model={zoomModel}
+        onClose={() => setZoomModel(null)}
+        onWantMore={(label) => {
+          setZoomModel(null);
+          goToForm(label);
+        }}
+      />
       <CookieConsent />
     </main>
   );

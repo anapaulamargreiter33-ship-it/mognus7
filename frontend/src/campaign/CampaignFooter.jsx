@@ -18,7 +18,7 @@ export default function CampaignFooter({ onOpenModel }) {
               onClick={() => onOpenModel("")}
               className="mt-6 rounded-full border border-brass/60 px-8 py-3.5 text-[10px] font-medium uppercase tracking-[0.24em] text-brass-light transition-all duration-500 hover:bg-brass hover:text-ink"
             >
-              {t("cta.model")}
+              {t("nav.quote")}
             </button>
           </div>
           <div className="md:col-span-4">

@@ -110,6 +110,7 @@ class LeadIn(BaseModel):
     message: str = Field(default="", max_length=2000)
     language: str = Field(default="pt", max_length=5)
     consent: bool = False
+    marketing: bool = False
     source: str = Field(default="", max_length=300)
     session_id: str = Field(default="", max_length=64)
     website: str = Field(default="", max_length=120)

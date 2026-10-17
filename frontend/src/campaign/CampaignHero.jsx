@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useLang } from "@/campaign/i18n";
+import { WHATSAPP_URL, useLang } from "@/campaign/i18n";
 
 const lineVariants = {
   hidden: { y: "115%" },
@@ -41,7 +41,7 @@ export default function CampaignHero() {
           {t("hero.eyebrow")}
         </motion.p>
 
-        <h1 className="font-serif text-[12vw] font-light leading-[1.04] text-bone sm:text-6xl lg:text-7xl">
+        <h1 className="font-serif text-[11vw] font-light leading-[1.05] text-bone sm:text-6xl lg:text-7xl">
           {["t1", "t2"].map((k, i) => (
             <span key={k} className="mask-line">
               <motion.span
@@ -73,19 +73,34 @@ export default function CampaignHero() {
           className="mt-9 flex flex-wrap items-center gap-5"
         >
           <a
-            href="#modelos"
-            data-testid="campaign-hero-cta"
-            onClick={(e) => scrollTo(e, "#modelos")}
-            className="group relative overflow-hidden rounded-full bg-brass px-9 py-4 text-[11px] font-semibold uppercase tracking-[0.26em] text-ink transition-transform duration-500 hover:scale-[1.03]"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
+            data-testid="campaign-hero-cta-whatsapp"
+            className="group relative overflow-hidden rounded-full bg-brass px-9 py-4 text-[11px] font-semibold uppercase tracking-[0.24em] text-ink transition-transform duration-500 hover:scale-[1.03]"
           >
-            <span className="relative z-10">{t("hero.btn")}</span>
+            <span className="relative z-10">{t("hero.cta1")} →</span>
             <span className="absolute inset-0 -translate-x-full bg-brass-light transition-transform duration-700 ease-out group-hover:translate-x-0" />
           </a>
-          <span className="flex items-center gap-3 text-[10px] uppercase tracking-[0.28em] text-bone/50">
-            <span className="h-1.5 w-1.5 rotate-45 bg-brass" />
-            Instagram · Facebook
-          </span>
+          <a
+            href="#modelos"
+            data-testid="campaign-hero-cta-explore"
+            onClick={(e) => scrollTo(e, "#modelos")}
+            className="rounded-full border border-bone/30 px-9 py-4 text-[11px] font-medium uppercase tracking-[0.24em] text-bone/85 transition-colors hover:border-brass hover:text-brass-light"
+          >
+            {t("hero.cta2")} ↓
+          </a>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.4, duration: 1 }}
+          className="mt-6 flex items-center gap-3 text-[10px] uppercase tracking-[0.24em] text-bone/45"
+        >
+          <span className="h-1.5 w-1.5 rotate-45 bg-brass" />
+          {t("hero.note")}
+        </motion.p>
       </div>
     </section>
   );

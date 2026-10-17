@@ -1,13 +1,6 @@
 import { useEffect, useState } from "react";
 import { LANGS, useLang } from "@/campaign/i18n";
 
-const NAV_CTA = {
-  pt: "Pedir orçamento",
-  de: "Angebot anfordern",
-  fr: "Demander un devis",
-  es: "Solicitar presupuesto",
-};
-
 export default function CampaignNav({ onOpenModel }) {
   const { lang, setLang, t } = useLang();
   const [scrolled, setScrolled] = useState(false);
@@ -27,10 +20,10 @@ export default function CampaignNav({ onOpenModel }) {
   };
 
   const links = [
-    { label: t("gal.eyebrow"), href: "#modelos" },
-    { label: t("camp.eyebrow"), href: "#campanha" },
-    { label: t("proc.title2"), href: "#processo" },
-    { label: t("about.eyebrow"), href: "#sobre" },
+    { label: t("nav.inspiration"), href: "#modelos" },
+    { label: t("nav.process"), href: "#processo" },
+    { label: t("nav.about"), href: "#sobre" },
+    { label: t("nav.quote"), href: "#pedido" },
   ];
 
   return (
@@ -75,7 +68,7 @@ export default function CampaignNav({ onOpenModel }) {
             onClick={() => onOpenModel("")}
             className="hidden rounded-full bg-brass px-6 py-2.5 text-[10px] font-semibold uppercase tracking-[0.22em] text-ink transition-transform hover:scale-[1.03] sm:block"
           >
-            {NAV_CTA[lang] || "Pedir orçamento"}
+            {t("nav.quote")}
           </button>
         </div>
       </div>
