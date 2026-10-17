@@ -14,6 +14,8 @@
 - Fotos reais do site verdadeiro reutilizadas: fundador-jardel.webp, contacto-interior.webp, arvore-origem.webp.
 - Pendente: notificação de conclusão do deploy (job a4e3dc54…). Se o site no ar ainda mostrar o monograma antigo após o deploy, premir Redeploy uma vez para incluir o reajuste final.
 
+- Idiomas da campanha: PT/DE/FR/ES (decisão do cliente 2026-10-17: inglês pedido e depois ANULADO pelo cliente — não adicionar EN).
+
 ## Problema original (verbatim)
 "Quero que você insira no meu site todas as imagens dos produtos e seus respectivos preços que estão no site que vou enviar... Melhore bastante a qualidade das imagens... Inclua a marca MOGNU'S nos móveis... Disponibilize lupa e ampliação..."
 ## Iteração 2 (verbatim resumido): "O site ficou muito lindo! Quero manter exatamente esse estilo... a MOGNU'S é uma carpintaria que também vende colchões e outros produtos, então retire a apresentação como 'ateliê'. Você está usando produtos que não são os nossos. Substitua pelas imagens dos produtos reais... com os respectivos preços."

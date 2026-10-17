@@ -1,0 +1,18 @@
+{
+  "summary": "Smoke test focused on the EN-revert on /cozinha landing. Confirmed language selector shows exactly 4 options (PT, DE, FR, ES) with NO lang-en button. DE switch renders 'DIE MOGNU'S-AKTION' (CSS uppercase of 'Die MOGNU'S-Aktion') and PT switch restores 'A CAMPANHA MOGNU'S'. All required sections render (campaign-hero, kitchen-gallery with 6 cards, lead-form-section, campaign-video, admin-panel-link, footer). Lead form submission succeeds and shows lead-form-success. No horizontal overflow at 1440px or 390px viewports.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (skipped)", "frontend": "100%"},
+  "seed_data_creation": "Lead form submitted a QA entry (name: 'Teste QA', email: qa<rnd>@example.com) through the real backend; no cleanup performed.",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "LANGS in /app/frontend/src/campaign/i18n.jsx is correctly reverted to [pt, de, fr, es]. No lang-en anywhere. Full battery was done in iteration_1.json; this iteration only validated the revert + smoke-tested main sections and lead form at 1440 and 390 widths."
+}
