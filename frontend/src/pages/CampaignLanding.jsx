@@ -35,6 +35,15 @@ function LandingInner() {
     }
   }, [lang]);
 
+  useEffect(() => {
+    if (window.location.hostname.split(".")[0] !== "cozinhas") return;
+    document.title = "MOGNU'S | Cozinhas por medida — Campanha 15 dias úteis";
+    const link = document.querySelector("link[rel='canonical']") || document.createElement("link");
+    link.rel = "canonical";
+    link.href = "https://cozinhas.mognuscompany.com/";
+    document.head.appendChild(link);
+  }, []);
+
   const goToForm = (modelLabel) => {
     setSelectedModel(modelLabel || "");
     const el = document.getElementById("pedido");

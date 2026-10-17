@@ -9,6 +9,8 @@ import CampaignPolicies from "@/pages/CampaignPolicies";
 import AdminLogin from "@/pages/AdminLogin";
 import AdminPanel from "@/pages/AdminPanel";
 
+const isCampaignHost = typeof window !== "undefined" && window.location.hostname.split(".")[0] === "cozinhas";
+
 function App() {
   useEffect(() => {
     const lenis = new Lenis({ lerp: 0.09, smoothWheel: true });
@@ -30,7 +32,7 @@ function App() {
     <ErrorBoundary>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={isCampaignHost ? <CampaignLanding /> : <Home />} />
           <Route path="/cozinha" element={<CampaignLanding />} />
           <Route path="/cozinha/privacidade" element={<CampaignPolicies page="privacy" />} />
           <Route path="/cozinha/cookies" element={<CampaignPolicies page="cookies" />} />

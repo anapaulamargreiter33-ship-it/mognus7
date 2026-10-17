@@ -6,7 +6,7 @@
 - Credenciais de teste: /app/memory/test_credentials.md (admin@mognuscompany.com / Mognus#2026-Cozinhas).
 - Vídeo do anúncio: INSERIDO na secção final "Vamos dar forma à sua cozinha?" (decisão do cliente 2026-10-17, substitui a decisão anterior de o excluir da landing). Sem autoplay, com poster e "Rever a apresentação".
 - Campo `marketing` (bool) adicionado ao LeadIn no backend; CRM mostra badge de marketing. Testado por pytest (8/8) e E2E (11/11) em 2026-10-17.
-- Domínio próprio (ex.: cozinhas.mognuscompany.com): a ligar posteriormente pelo cliente.
+- Domínio próprio (ex.: cozinhas.mognuscompany.com): a ligar posteriormente pelo cliente. PREPARADO no código (2026-10-17): quando o hostname começa por "cozinhas.", a raiz "/" renderiza a landing da campanha (App.js, isCampaignHost), com title + canonical próprios; CORS do backend já é aberto (allow_origins ["*"]), pelo que não são precisos segredos adicionais. Passos de ligação: Manage Publishes → Domain → Auto-link (ou manual: 2× registo A "cozinhas" → 162.159.142.117 e 172.66.2.113 + CNAME www.cozinhas → cozinhas.mognuscompany.com; Cloudflare em "DNS only") → Link Manually → Check Status; SSL automático; sem redeploy obrigatório.
 
 ## Reajuste final (2026-10-17) — espelho do site verdadeiro
 - Estrutura da /cozinha copiada 1:1 do mognuscompany.com (exemplo enviado pelo cliente): hero, modelos (galeria), encontrou a cozinha ideal, campanha 15 dias, processo, "Porquê a Mognu's?" (3 razões reais), "A nossa história" (Jardel Silveira, carpintaria aos 8 anos no Brasil, ~20 anos Brasil/Portugal/França/Suíça, citação do fundador, origem do nome, missão/visão — textos oficiais), "Dê vida às suas ideias" (WhatsApp pré-preenchido, e-mail) e rodapé com Livro de Reclamações.
