@@ -1,0 +1,44 @@
+{
+  "summary": "Testes end-to-end da reconstrução da landing /cozinha (11 secções, i18n PT/DE/FR/ES, vídeo, formulário inline com WhatsApp) + backend lead/admin. Backend 8/8 pytest passam; UI valida todas as secções, galeria+lightbox+pré-seleção de estilo, scroll para #pedido, submissão do formulário com gravação no CRM e abertura do wa.me pré-preenchido, troca de idioma, vídeo /videos/video_anuncio.mp4 sem autoplay, links admin/privacy, banner de cookies persistente após reload. Sem overflow horizontal a 1440px nem 390px. Admin login OK, lead do Playwright aparece no CRM com estado 'novo' e flag MARKETING ✓.",
+  "backend_issues": {
+    "critical": [],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {
+        "screen": "/cozinha/admin/painel (AdminPanel.jsx, linha 169)",
+        "issues": [
+          "Hydration warning no console: '<span> cannot be a child of <option>' — provavelmente há um <span>{t(...)}</span> dentro do <option> no filtro de modelos/idiomas. Fora do âmbito desta reconstrução, mas vale a pena limpar para evitar o aviso de hidratação do React."
+        ]
+      }
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_campaign.py",
+    "/app/test_reports/pytest/campaign_results.xml"
+  ],
+  "action_items": [
+    "(Opcional) Corrigir warning de hidratação em AdminPanel.jsx (linha ~169) removendo <span> de dentro de <option>."
+  ],
+  "critical_code_review_comments": [
+    "LeadForm.jsx: window.open é chamado dentro do submit — se o browser bloquear o popup, o utilizador vê o ecrã de sucesso com um fallback 'Abrir WhatsApp' (lead-success-whatsapp). Comportamento correto para campanhas pagas.",
+    "campaign.py: endpoint POST /api/campaign/lead faz rate-limit por IP (5/h) e tem honeypot 'website' — boa prática.",
+    "campaign.py: aceita o novo campo 'marketing: bool' e persiste-o no documento. Confirmado end-to-end na UI do CRM (badge MARKETING ✓)."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_campaign.py (criado)"
+  ],
+  "success_rate": {
+    "backend": "100% (8/8)",
+    "frontend": "100% (11/11 verificações principais)"
+  },
+  "test_credentials": "admin@mognuscompany.com / Mognus#2026-Cozinhas (de /app/memory/test_credentials.md)",
+  "seed_data_creation": "Submetidos leads 'TEST_Playwright 130037' (via UI) e 'TEST_1792241988 Rebuild/ListCheck' (via pytest). Todos com marketing=true e visíveis no CRM.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "A landing /cozinha foi reconstruída com 11 secções inline. O formulário é agora #pedido (secção, não modal). Hero WhatsApp CTA data-testid=campaign-hero-cta-whatsapp. Lightbox CTA data-testid=kitchen-lightbox-cta pré-seleciona o modelo via prop selectedModel. Submissão do form dispara window.open(wa.me/...) — intercetar com page.evaluate antes do click para validar a URL. Admin login em /cozinha/admin → /cozinha/admin/painel; separador CRM mostra leads com badge MARKETING ✓. Hydration warning menor em AdminPanel.jsx linha 169 (span dentro de option) — não bloqueia nada.",
+  "rca of the issue": "Sem issues críticos. Único aviso cosmético é a hidratação do React em AdminPanel.jsx:169 — o código renderiza <option><span>{t(...)}</span></option>; o <span> é inválido como filho de <option>. Fix: usar texto direto {t(...)} ou envolver em template string."
+}

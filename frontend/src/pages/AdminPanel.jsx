@@ -166,7 +166,7 @@ export default function AdminPanel() {
           <section className="mt-8" data-testid="admin-metrics">
             <div className="flex flex-wrap gap-3">
               <select value={filters.days} onChange={(e) => setFilters((f) => ({ ...f, days: +e.target.value }))} data-testid="metrics-filter-days" className={inputCls}>
-                {[7, 14, 30, 90].map((d) => <option key={d} value={d}>Últimos {d} dias</option>)}
+                {[7, 14, 30, 90].map((d) => <option key={d} value={d}>{`Últimos ${d} dias`}</option>)}
               </select>
               <select value={filters.model} onChange={(e) => setFilters((f) => ({ ...f, model: e.target.value }))} data-testid="metrics-filter-model" className={inputCls}>
                 <option value="">Todos os modelos</option>
