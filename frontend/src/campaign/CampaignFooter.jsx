@@ -9,8 +9,9 @@ export default function CampaignFooter({ onOpenModel }) {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
-            <img src="/images/campaign/mognus-logo.png" alt="MOGNU'S — logótipo oficial" className="h-14 w-auto rounded-sm bg-bone p-2.5" data-testid="footer-official-logo" />
+            <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S — logótipo oficial" className="h-14 w-auto" data-testid="footer-official-logo" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-bone/55">{t("footer.tagline")}</p>
+            <p className="mt-2 text-[10px] uppercase tracking-[0.28em] text-bone/40">{t("footer.tagline2")}</p>
             <p className="mt-3 text-[10px] uppercase tracking-[0.28em] text-brass-light/80">{t("footer.campaign")}</p>
             <button
               data-testid="footer-cta"
@@ -45,6 +46,7 @@ export default function CampaignFooter({ onOpenModel }) {
               <li><a href="https://www.instagram.com/mognuscompany/" target="_blank" rel="noreferrer" data-testid="footer-instagram" className="transition-colors hover:text-brass-light">Instagram ↗</a></li>
               <li><a href="/cozinha/privacidade" data-testid="footer-privacy" className="transition-colors hover:text-brass-light">{t("footer.privacy")}</a></li>
               <li><a href="/cozinha/cookies" data-testid="footer-cookies" className="transition-colors hover:text-brass-light">{t("footer.cookies")}</a></li>
+              <li><a href="https://www.livroreclamacoes.pt/" target="_blank" rel="noreferrer" data-testid="footer-livro" className="transition-colors hover:text-brass-light">{t("footer.livro")} ↗</a></li>
               <li><a href="/cozinha/admin" data-testid="footer-admin" className="text-bone/30 transition-colors hover:text-brass-light">Admin</a></li>
             </ul>
           </div>

@@ -40,7 +40,7 @@ export default function CampaignNav({ onOpenModel }) {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5 sm:px-8">
         <a href="/cozinha" onClick={(e) => scrollTo(e, "#top")} aria-label="MOGNU'S — Cozinhas" data-testid="campaign-nav-logo">
-          <img src="/images/campaign/mognus-logo.png" alt="MOGNU'S — logótipo oficial" className="h-10 w-auto rounded-sm bg-bone p-1.5 sm:h-11" />
+          <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S — logótipo oficial" className="h-11 w-auto sm:h-12" />
         </a>
         <nav className="hidden items-center gap-7 lg:flex">
           {links.map((l) => (

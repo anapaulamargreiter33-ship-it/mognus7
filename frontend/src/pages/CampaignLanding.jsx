@@ -8,7 +8,7 @@ import KitchenLightbox from "@/campaign/KitchenLightbox";
 import LeadForm from "@/campaign/LeadForm";
 import CookieConsent, { readConsent } from "@/campaign/CookieConsent";
 import CampaignFooter from "@/campaign/CampaignFooter";
-import { AboutSection, CampaignSection, FoundSection, ProcessSection } from "@/campaign/CampaignSections";
+import { CampaignSection, ContactoSection, FoundSection, HistoriaSection, PorqueSection, ProcessSection } from "@/campaign/CampaignSections";
 
 function LandingInner() {
   const { lang } = useLang();
@@ -50,7 +50,9 @@ function LandingInner() {
       <FoundSection onOpenModel={openForm} selectedModel={selectedModel} />
       <CampaignSection />
       <ProcessSection />
-      <AboutSection />
+      <PorqueSection />
+      <HistoriaSection />
+      <ContactoSection onOpenModel={openForm} />
       <CampaignFooter onOpenModel={openForm} />
       <KitchenLightbox model={zoomModel} onClose={() => setZoomModel(null)} onWantMore={(label) => { setZoomModel(null); openForm(label); }} />
       <LeadForm model={formModel} onClose={() => setFormModel(null)} />

@@ -136,9 +136,12 @@ export default function AdminPanel() {
     <main className="min-h-screen bg-bone pb-20 pt-24 text-ivory antialiased" data-testid="admin-panel">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line pb-5">
-          <div>
-            <h1 className="font-serif text-3xl font-light">Painel · Cozinhas em 15 dias</h1>
-            <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-faint" data-testid="admin-user-email">{user.email}</p>
+          <div className="flex items-center gap-4">
+            <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S" className="h-11 w-auto rounded-sm bg-ink px-3 py-2" />
+            <div>
+              <h1 className="font-serif text-3xl font-light">Painel · Cozinhas em 15 dias</h1>
+              <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-faint" data-testid="admin-user-email">{user.email}</p>
+            </div>
           </div>
           <div className="flex items-center gap-3">
             <a href="/cozinha" className="rounded-full border border-line px-5 py-2.5 text-[10px] uppercase tracking-[0.2em] text-mute hover:border-brass hover:text-brass-dark">Ver campanha</a>

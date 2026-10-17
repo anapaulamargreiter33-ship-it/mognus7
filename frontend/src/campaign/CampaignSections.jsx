@@ -160,46 +160,185 @@ export function ProcessSection() {
   );
 }
 
-export function AboutSection() {
+export function PorqueSection() {
   const { t } = useLang();
+  const items = ["1", "2", "3"];
   return (
-    <section id="sobre" data-testid="about-section" className="bg-bone py-20 lg:py-32">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-5 sm:px-8 lg:grid-cols-12">
+    <section id="porque" data-testid="why-section" className="bg-ink py-20 lg:py-32">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-          className="lg:col-span-6"
+        >
+          <p className="mb-4 flex items-center gap-4 text-[10px] font-medium uppercase tracking-[0.4em] text-brass-light">
+            <span className="h-px w-10 bg-brass" />
+            {t("why.eyebrow")}
+          </p>
+          <h2 className="font-serif text-4xl font-light text-bone sm:text-5xl">{t("why.title")}</h2>
+        </motion.div>
+        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3" data-testid="why-cards">
+          {items.map((n, i) => (
+            <motion.div
+              key={n}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+              className="border-t border-inkline pt-6"
+              data-testid={`why-card-${n}`}
+            >
+              <span className="font-serif text-4xl text-brass-light">{String(i + 1).padStart(2, "0")}</span>
+              <h3 className="mt-4 font-serif text-2xl text-bone">{t(`why.${n}.t`)}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-bone/55">{t(`why.${n}.d`)}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function HistoriaSection() {
+  const { t } = useLang();
+  return (
+    <section id="sobre" data-testid="history-section" className="bg-bone py-20 lg:py-32">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="mb-4 flex items-center gap-4 text-[10px] font-medium uppercase tracking-[0.4em] text-brass-dark">
             <span className="h-px w-10 bg-brass" />
-            {t("about.eyebrow")}
+            {t("hist.eyebrow")}
           </p>
           <h2 className="font-serif text-4xl font-light leading-tight text-ivory sm:text-5xl">
-            {t("about.title1")}
+            {t("hist.title1")}
             <br />
-            <span className="italic text-walnut">{t("about.title2")}</span>
+            <span className="italic text-walnut">{t("hist.title2")}</span>
           </h2>
-          <p className="mt-5 max-w-lg text-sm leading-relaxed text-mute sm:text-base">{t("about.text")}</p>
-          <div className="mt-7 flex flex-wrap gap-4">
-            <a href="https://mognuscompany.com" target="_blank" rel="noreferrer" data-testid="about-site-link" className="rounded-full border border-walnut/40 px-7 py-3 text-[10px] font-medium uppercase tracking-[0.22em] text-walnut transition-colors hover:border-brass hover:text-brass-dark">
-              {t("about.site")} ↗
+        </motion.div>
+
+        <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-12">
+          <motion.figure
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+            className="relative overflow-hidden rounded-sm lg:col-span-5"
+            data-testid="history-founder-photo"
+          >
+            <img src="/images/campaign/fundador-jardel.webp" alt={t("hist.fundador")} loading="lazy" className="aspect-[4/5] w-full object-cover" />
+            <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-5 text-[10px] uppercase tracking-[0.26em] text-bone/85">
+              {t("hist.fundador")}
+            </figcaption>
+          </motion.figure>
+
+          <div className="flex flex-col justify-between gap-8 lg:col-span-7">
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+            >
+              <p className="text-base leading-relaxed text-mute sm:text-lg">{t("hist.p1")}</p>
+              <p className="mt-4 text-base leading-relaxed text-mute sm:text-lg">{t("hist.p2")}</p>
+              <blockquote className="mt-7 border-l-2 border-brass pl-6 font-serif text-2xl font-light italic leading-snug text-ivory" data-testid="history-quote">
+                “{t("hist.quote")}”
+              </blockquote>
+            </motion.div>
+
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8 }}
+                className="rounded-sm border border-line bg-white p-6"
+              >
+                <h3 className="font-serif text-xl text-ivory">{t("hist.nome.title")}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-mute">{t("hist.nome.text")}</p>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.08 }}
+                className="flex flex-col gap-6"
+              >
+                <div className="rounded-sm border border-line bg-white p-6">
+                  <h3 className="font-serif text-xl text-ivory">{t("hist.missao.t")}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-mute">{t("hist.missao")}</p>
+                </div>
+                <div className="rounded-sm border border-line bg-white p-6">
+                  <h3 className="font-serif text-xl text-ivory">{t("hist.visao.t")}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-mute">{t("hist.visao")}</p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function ContactoSection({ onOpenModel }) {
+  const { t } = useLang();
+  return (
+    <section id="contacto" data-testid="contact-section" className="relative overflow-hidden bg-ink py-20 lg:py-32">
+      <div className="absolute inset-0 opacity-25">
+        <img src="/images/campaign/contacto-interior.webp" alt="" loading="lazy" className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/40" />
+      </div>
+      <div className="relative z-10 mx-auto max-w-7xl px-5 text-center sm:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <p className="mb-4 flex items-center justify-center gap-4 text-[10px] font-medium uppercase tracking-[0.4em] text-brass-light">
+            <span className="h-px w-10 bg-brass" />
+            {t("cont.eyebrow")}
+            <span className="h-px w-10 bg-brass" />
+          </p>
+          <h2 className="font-serif text-5xl font-light leading-tight text-bone sm:text-6xl">
+            {t("cont.title1")}
+            <br />
+            <span className="italic text-brass-light">{t("cont.title2")}</span>
+          </h2>
+          <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-bone/65 sm:text-base">{t("cont.text")}</p>
+          <div className="mt-9 flex flex-wrap items-center justify-center gap-5">
+            <a
+              href="https://wa.me/351930636700?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Mognu's%20e%20gostava%20de%20pedir%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noreferrer"
+              data-testid="contact-whatsapp"
+              className="group relative overflow-hidden rounded-full bg-brass px-9 py-4 text-[11px] font-semibold uppercase tracking-[0.26em] text-ink transition-transform hover:scale-[1.03]"
+            >
+              <span className="relative z-10">{t("cont.whats")}</span>
+              <span className="absolute inset-0 -translate-x-full bg-brass-light transition-transform duration-700 ease-out group-hover:translate-x-0" />
             </a>
-            <a href="https://www.instagram.com/mognuscompany/" target="_blank" rel="noreferrer" data-testid="about-instagram-link" className="rounded-full border border-walnut/40 px-7 py-3 text-[10px] font-medium uppercase tracking-[0.22em] text-walnut transition-colors hover:border-brass hover:text-brass-dark">
-              {t("about.insta")} ↗
+            <a
+              href="mailto:geral@mognuscompany.com"
+              data-testid="contact-email"
+              className="rounded-full border border-bone/25 px-9 py-4 text-[11px] font-medium uppercase tracking-[0.26em] text-bone/85 transition-colors hover:border-brass hover:text-brass-light"
+            >
+              {t("cont.email")}
             </a>
+            <button
+              data-testid="contact-form-cta"
+              onClick={() => onOpenModel("")}
+              className="rounded-full border border-transparent px-6 py-4 text-[11px] font-medium uppercase tracking-[0.26em] text-brass-light underline underline-offset-4 hover:text-brass"
+            >
+              {t("cta.model")}
+            </button>
           </div>
         </motion.div>
-        <motion.figure
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="relative overflow-hidden rounded-sm lg:col-span-6"
-        >
-          <img src="/images/campaign/about_carpenter.jpg" alt="Carpinteiro MOGNU'S a inspecionar porta de cozinha" loading="lazy" className="aspect-[4/3] w-full object-cover" />
-        </motion.figure>
       </div>
     </section>
   );

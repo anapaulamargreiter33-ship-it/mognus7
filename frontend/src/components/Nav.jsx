@@ -38,7 +38,7 @@ export default function Nav() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
           <a href="#top" onClick={(e) => scrollTo(e, "#top")} data-testid="nav-logo" aria-label="MOGNU'S — início">
-            <MognusLogo />
+            <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S" className="h-11 w-auto sm:h-12" />
           </a>
           <nav className="hidden items-center gap-9 md:flex">
             {LINKS.map((l) => (
@@ -88,7 +88,7 @@ export default function Nav() {
             transition={{ duration: 0.4 }}
           >
             <div className="flex items-center justify-between px-5 py-4">
-              <MognusLogo />
+              <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S" className="h-10 w-auto" />
               <button
                 data-testid="nav-menu-close"
                 onClick={() => setOpen(false)}

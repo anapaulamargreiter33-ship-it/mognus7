@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div id="marca" className="mt-16 grid grid-cols-1 gap-12 border-t border-inkline pt-14 md:grid-cols-12">
           <div className="md:col-span-5">
-            <MognusLogo />
+            <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S" className="h-14 w-auto" data-testid="footer-official-logo" />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-bone/55">
               Carpintaria e loja de mobiliário em Loulé, Algarve. Cozinhas, roupeiros e bibliotecas
               sob medida — e camas, colchões, sofás e mesas feitos à mão.

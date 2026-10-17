@@ -7,6 +7,12 @@
 - Vídeo: conforme decisão do cliente, NÃO vai na landing (fica só na publicação do Instagram).
 - Domínio próprio (ex.: cozinhas.mognuscompany.com): a ligar posteriormente pelo cliente.
 
+## Reajuste final (2026-10-17) — espelho do site verdadeiro
+- Estrutura da /cozinha copiada 1:1 do mognuscompany.com (exemplo enviado pelo cliente): hero, modelos (galeria), encontrou a cozinha ideal, campanha 15 dias, processo, "Porquê a Mognu's?" (3 razões reais), "A nossa história" (Jardel Silveira, carpintaria aos 8 anos no Brasil, ~20 anos Brasil/Portugal/França/Suíça, citação do fundador, origem do nome, missão/visão — textos oficiais), "Dê vida às suas ideias" (WhatsApp pré-preenchido, e-mail) e rodapé com Livro de Reclamações.
+- Logótipo oficial corrigido: ficheiro autêntico logo-claro-312.png (martelo + louros + MOGNU'S, fundo transparente) extraído do site verdadeiro e aplicado na campanha, no site institucional, no painel admin e no favicon (composto sobre quadrado escuro). O monograma "M" foi removido de todas as páginas.
+- Fotos reais do site verdadeiro reutilizadas: fundador-jardel.webp, contacto-interior.webp, arvore-origem.webp.
+- Pendente: notificação de conclusão do deploy (job a4e3dc54…). Se o site no ar ainda mostrar o monograma antigo após o deploy, premir Redeploy uma vez para incluir o reajuste final.
+
 ## Problema original (verbatim)
 "Quero que você insira no meu site todas as imagens dos produtos e seus respectivos preços que estão no site que vou enviar... Melhore bastante a qualidade das imagens... Inclua a marca MOGNU'S nos móveis... Disponibilize lupa e ampliação..."
 ## Iteração 2 (verbatim resumido): "O site ficou muito lindo! Quero manter exatamente esse estilo... a MOGNU'S é uma carpintaria que também vende colchões e outros produtos, então retire a apresentação como 'ateliê'. Você está usando produtos que não são os nossos. Substitua pelas imagens dos produtos reais... com os respectivos preços."

@@ -61,7 +61,7 @@ export default function AdminLogin() {
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         className="w-full max-w-md rounded-md border border-inkline bg-ink2/60 p-8"
       >
-        <img src="/images/campaign/mognus-logo.png" alt="MOGNU'S" className="mx-auto h-12 w-auto rounded-sm bg-bone p-2" />
+        <img src="/images/campaign/mognus-logo-oficial.png" alt="MOGNU'S" className="mx-auto h-12 w-auto" />
         <h1 className="mt-6 text-center font-serif text-3xl font-light text-bone">Painel Privado</h1>
         <p className="mt-1 text-center text-[10px] uppercase tracking-[0.3em] text-bone/40">Acesso restrito · MOGNU'S</p>
 
